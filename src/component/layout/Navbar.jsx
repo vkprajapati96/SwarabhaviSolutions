@@ -30,7 +30,8 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="text-[#1a3d6b] font-bold text-[16px] leading-tight">
-                SwaraBHavi Solution
+                Swarabhavi
+Solutions
               </span>
             </div>
           </Link>
