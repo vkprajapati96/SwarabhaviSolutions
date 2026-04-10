@@ -10,7 +10,7 @@ const Footer = () => {
         {/* LEFT - BRAND */}
         <div className="flex flex-col gap-4">
           <h2 className="text-3xl font-bold text-black leading-tight">
-        
+            Swarabhavi <br /> Solutions
           </h2>
           <p className="text-gray-600 leading-relaxed">
             Build your dream home with our expert construction services.
