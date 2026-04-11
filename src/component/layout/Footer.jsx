@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../image/logo.jpeg";
 
 const Footer = () => {
   return (
@@ -9,9 +10,20 @@ const Footer = () => {
 
         {/* LEFT - BRAND */}
         <div className="flex flex-col gap-4">
-          <h2 className="text-3xl font-bold text-black leading-tight">
-            Swarabhavi <br /> Solutions
-          </h2>
+
+          {/* LOGO + NAME */}
+          <div className="flex items-center gap-3">
+            <img
+              src={logo}
+              alt="Logo"
+              className="w-[50px] h-[50px] object-cover rounded-lg"
+            />
+            
+            <h2 className="text-2xl md:text-[22px] font-bold text-[#1a3d6b] leading-tight">
+              Swarabhavi Solutions
+            </h2>
+          </div>
+
           <p className="text-gray-600 leading-relaxed">
             Build your dream home with our expert construction services.
             From concept to completion, we bring your vision to life.
@@ -20,7 +32,7 @@ const Footer = () => {
 
         {/* CENTER - LINKS */}
         <div className="flex flex-col gap-4">
-          <h3 className="text-2xl font-semibold text-black">
+          <h3 className="text-2xl font-semibold text-[#1a3d6b]">
             Quick Links
           </h3>
 
@@ -34,7 +46,7 @@ const Footer = () => {
 
         {/* RIGHT - CONTACT */}
         <div className="flex flex-col gap-4">
-          <h3 className="text-2xl font-semibold text-black">
+          <h3 className="text-2xl font-semibold text-[#1a3d6b]">
             Contact Us
           </h3>
 
