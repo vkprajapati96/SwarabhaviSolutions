@@ -1,6 +1,7 @@
 import { HiArrowRight } from "react-icons/hi";
 import { BsCheckCircleFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import TeamSection from "../component/TeamSection";
 
 
 const roads = [
@@ -148,7 +149,7 @@ export default function About() {
           </div>
 
           {/* BUILDINGS */}
-          <div className="bg-[#1a3d6b] rounded-3xl p-8 flex flex-col gap-6">
+          <div className="bg-[#C4DCF3] rounded-3xl p-8 flex flex-col gap-6">
 
             <h3 className="text-xl font-black text-white">
               Govt. & Commercial Buildings
@@ -228,7 +229,7 @@ export default function About() {
           </div>
 
           {/* Mission 2 */}
-          <div className="bg-[#1a3d6b] rounded-2xl p-6">
+          <div className="bg-[#C4DCF3] rounded-2xl p-6">
             <div className="flex items-center gap-3 mb-2">
               <div className="w-10 h-10 bg-white/10 border border-white/20 rounded-xl flex items-center justify-center">
                 🚀
@@ -256,6 +257,7 @@ export default function About() {
         </div>
 
       </div>
+      <TeamSection/>
     </section>
    
 </>

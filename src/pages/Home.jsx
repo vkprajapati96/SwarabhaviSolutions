@@ -1,10 +1,13 @@
 import { BsTelephone } from "react-icons/bs";
 import HowGetStarted from "../component/HowGetStarted";
 import WhyChooseUs from "../component/WhyChooseUs";
+import PricingCards from "../component/pricingData";
+import ServicesSection from "../component/SurveillanceSection";
+import SurveillanceSection from "../component/SurveillanceSection";
 
 export default function Hero() {
   return (
-    <>
+    <div>
       <section className="bg-[#EBF3FB] w-full min-h-screen px-6 md:px-16 py-16 flex items-center">
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
@@ -81,6 +84,11 @@ export default function Hero() {
       </section>
       <WhyChooseUs/>
       <HowGetStarted/>
-    </>
+      <PricingCards/>
+
+{/* <ServicesSection/>÷ */}
+<SurveillanceSection/>
+
+    </div>
   );
 }

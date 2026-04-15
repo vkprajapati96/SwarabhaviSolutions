@@ -9,6 +9,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
 
         {/* LEFT - BRAND */}
+        
         <div className="flex flex-col gap-4">
 
           {/* LOGO + NAME */}
@@ -39,6 +40,7 @@ const Footer = () => {
           <div className="flex flex-col gap-3 text-gray-700">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
+            <Link to="/CostEstimator">Cost Estimator</Link>
             <Link to="/project">Our Projects</Link>
             <Link to="/contact">Contact Us</Link>
           </div>

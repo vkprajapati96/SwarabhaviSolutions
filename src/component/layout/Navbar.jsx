@@ -6,6 +6,8 @@ import logo from "../../image/logo.jpeg";
 const navLinks = [
   { label: "Home", to: "/" },
   { label: "About Us", to: "/about" },
+  { label: "Cost Estimator", to: "/CostEstimator" },
+  { label: "Services", to: "/services" },
   { label: "Our Projects", to: "/project" },
   { label: "Contact Us", to: "/contact" },
 ];
@@ -38,8 +40,7 @@ export default function Navbar() {
               <Link
                 key={link.label}
                 to={link.to}
-                className="text-[#1a3d6b] text-[15px] md:text-[16px] font-medium px-4 py-2 rounded-md hover:bg-[#2176B8]/10 transition-all no-underline"
-              >
+className="text-[#1a3d6b] text-[13px] md:text-[14px] font-medium px-3 py-2 rounded-md hover:bg-[#2176B8]/10 transition-all no-underline"              >
                 {link.label}
               </Link>
             ))}
@@ -48,8 +49,7 @@ export default function Navbar() {
           {/* CTA */}
           <Link
             to="/contact"
-            className="hidden lg:block bg-[#1a1a1a] text-white text-[14px] font-semibold px-6 py-3 rounded-lg hover:bg-[#333] transition-all whitespace-nowrap"
-          >
+className="hidden lg:block bg-[#1a1a1a] text-white text-[13px] font-semibold px-5 py-2.5 rounded-lg hover:bg-[#333] transition-all whitespace-nowrap"          >
             Request A Free Consultation
           </Link>
 
