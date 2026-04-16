@@ -4,6 +4,7 @@ import WhyChooseUs from "../component/WhyChooseUs";
 import PricingCards from "../component/pricingData";
 import ServicesSection from "../component/SurveillanceSection";
 import SurveillanceSection from "../component/SurveillanceSection";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -38,12 +39,12 @@ export default function Hero() {
 
             {/* Button */}
             <div>
-              <a
-                href="#"
+              <Link
+                to="contact"
                 className="inline-flex items-center gap-2 bg-[#1a1a1a] text-white text-base font-semibold px-8 py-4 rounded-full hover:bg-[#333] transition-all no-underline"
               >
                 Free Consultation <BsTelephone />
-              </a>
+              </Link>
             </div>
 
           </div>

@@ -1,4 +1,101 @@
+import { useRef } from "react";
 import { HiArrowRight } from "react-icons/hi";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+
+const waterTankProjects = [
+  {
+    id: 1,
+    name: "RCC Water Tank - UP",
+    capacity: "50,000 Liters",
+    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop"
+  },
+  {
+    id: 2,
+    name: "Underground Reservoir",
+    capacity: "100,000 Liters",
+    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop"
+  },
+  {
+    id: 3,
+    name: "Elevated Water Tank",
+    capacity: "75,000 Liters",
+    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop"
+  },
+  {
+    id: 4,
+    name: "Village Water System",
+    capacity: "30,000 Liters",
+    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop"
+  },
+  {
+    id: 5,
+    name: "Community Water Hub",
+    capacity: "80,000 Liters",
+    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop"
+  },
+  {
+    id: 6,
+    name: "Smart Water Tank",
+    capacity: "120,000 Liters",
+    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop"
+  }
+];
+
+
+
+ 
+const jalProjects = [
+  {
+    id: 1,
+    badge: "Water Infrastructure",
+    title: "Water Tank Construction",
+    desc: "Ghar-Ghar Jal is one of our key projects working under the Ministry of Jal Shakti to provide water services to every citizen of our nation. We construct modern water tanks with advanced engineering and sustainable practices.",
+    points: ["RCC Tank Construction", "Capacity Planning", "Seismic Design"],
+    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=900",
+  },
+  {
+    id: 2,
+    badge: "Pipeline Network",
+    title: "Household Tap Connections",
+    desc: "With PM Modi's ambitious vision, we are executing the concept of providing clean tap water to every citizen by 2024. Our pipeline infrastructure ensures safe drinking water reaches every home efficiently.",
+    points: ["PVC Pipe Laying", "Pressure Testing", "Connection Management"],
+    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=900",
+  },
+  {
+    id: 3,
+    badge: "Water Purification",
+    title: "Advanced Water Treatment",
+    desc: "The Har Ghar-Nal Scheme is planned to provide clean drinking water to every household. We implement advanced water purification systems ensuring quality and safety standards are met.",
+    points: ["Filtration Systems", "Quality Testing", "Safety Compliance"],
+    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=900",
+  },
+  {
+    id: 4,
+    badge: "Surveillance Systems",
+    title: "Water System Monitoring",
+    desc: "Our surveillance systems monitor water tanks and distribution networks 24/7. We have initiated surveillance infrastructure in Uttar Pradesh ensuring optimal water delivery and system maintenance.",
+    points: ["CCTV Monitoring", "Real-Time Tracking", "Alert Systems"],
+    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=900",
+  },
+  {
+    id: 5,
+    badge: "Distribution Network",
+    title: "Smart Water Distribution",
+    desc: "By 2024, drinking water connections will be available to every household through our efficient distribution network. We manage supply chains ensuring no citizen lacks access to clean drinking water.",
+    points: ["Smart Metering", "Loss Prevention", "24/7 Supply"],
+    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=900",
+  },
+  {
+    id: 6,
+    badge: "Rural Infrastructure",
+    title: "Village Water Solutions",
+    desc: "Now no citizen will need to go anywhere for drinking water. Our rural water infrastructure projects bring sustainable water solutions to every village, combating the water crisis across the nation.",
+    points: ["Community Setup", "Maintenance Training", "Sustainability Focus"],
+    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=900",
+  },
+];
+ 
+
 
 const interiors = [
   {
@@ -44,7 +141,24 @@ const interiors = [
 ];
 
 export default function InteriorAndConstruction() {
+    const scrollRef = useRef(null);
+
+
+  const scroll = (direction) => {
+    if (scrollRef.current) {
+      const scrollAmount = 400;
+      if (direction === 'left') {
+        scrollRef.current.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+      } else {
+        scrollRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+      }
+    }
+  };
+
+
   return (
+    <>
+    
     <section className="bg-[#EBF3FB] w-full py-20 px-6 md:px-16">
       <div className="max-w-7xl mx-auto flex flex-col gap-0">
 
@@ -174,13 +288,7 @@ export default function InteriorAndConstruction() {
 
                     <div className="w-16 h-1 bg-[#2176B8] rounded-full" />
 
-                    {/* FIXED BUTTON */}
-                    {/* <a
-                      href="#"
-                      className="inline-flex items-center gap-2 bg-[#1a1a1a] text-white text-sm font-semibold px-7 py-3.5 rounded-full hover:bg-[#333]"
-                    >
-                      Explore {item.badge} <HiArrowRight />
-                    </a> */}
+                    
                   </div>
                 </>
               )}
@@ -189,5 +297,142 @@ export default function InteriorAndConstruction() {
         </div>
       </div>
     </section>
+
+
+
+    <section className="bg-[#EBF3FB] w-full py-20 px-6 md:px-16">
+      <div className="max-w-7xl mx-auto">
+        
+        {/* HEADER SECTION */}
+        <div className="mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            Pick Water Tank
+          </h2>
+          
+          <div className="space-y-4 max-w-3xl">
+            <p className="text-gray-700 leading-relaxed">
+              Ghar-Ghar Jal is one of our key projects working under the Ministry of Jal Shakti to provide water services to every citizen of our nation. With PM Modi's ambitious vision of executing and providing clean tap water to every citizen of our country by 2024.
+            </p>
+            
+            <p className="text-gray-700 leading-relaxed">
+              Har Ghar-Nal Scheme is a government project planned to provide clean drinking water to every household. By 2024, drinking water connections will be available to every household through this scheme. Now no citizen will need to go anywhere for drinking water. We are engaged in constructing water tanks across India and have initiated construction of water tank and surveillance systems in Uttar Pradesh.
+            </p>
+          </div>
+        </div>
+
+        {/* HORIZONTAL SCROLL SECTION */}
+        <div className="relative">
+          {/* Scroll Container */}
+          <div
+            ref={scrollRef}
+            className="flex gap-6 overflow-x-auto scrollbar-hide pb-4"
+            style={{ scrollBehavior: 'smooth' }}
+          >
+            {waterTankProjects.map((project) => (
+              <div
+                key={project.id}
+                className="flex-shrink-0 w-80 group cursor-pointer"
+              >
+                <div className="relative h-64 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
+                  <img
+                    src={project.img}
+                    alt={project.name}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  
+                  {/* Gradient Overlay */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+
+                  {/* Content */}
+                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                    <div className="text-sm font-semibold text-blue-300 mb-2">
+                      Tank {project.id}
+                    </div>
+                    <h3 className="text-xl font-bold mb-2">
+                      {project.name}
+                    </h3>
+                    <p className="text-sm text-gray-200">
+                      Capacity: {project.capacity}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Left Arrow */}
+          <button
+            onClick={() => scroll('left')}
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-6 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl hover:bg-blue-50 transition-all"
+            aria-label="Scroll left"
+          >
+            <ChevronLeft className="w-6 h-6 text-gray-900" />
+          </button>
+
+          {/* Right Arrow */}
+          <button
+            onClick={() => scroll('right')}
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-6 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl hover:bg-blue-50 transition-all"
+            aria-label="Scroll right"
+          >
+            <ChevronRight className="w-6 h-6 text-gray-900" />
+          </button>
+        </div>
+
+        {/* Stats Section */}
+        <div className="mt-20 grid md:grid-cols-3 gap-6">
+          <div className="bg-white rounded-xl p-8 shadow-md">
+            <p className="text-gray-600 text-sm font-semibold mb-2 uppercase tracking-wide">
+              Total Capacity
+            </p>
+            <p className="text-3xl font-bold text-gray-900">
+              455,000 L
+            </p>
+            <p className="text-gray-600 text-sm mt-2">
+              Combined water tank capacity
+            </p>
+          </div>
+
+          <div className="bg-white rounded-xl p-8 shadow-md">
+            <p className="text-gray-600 text-sm font-semibold mb-2 uppercase tracking-wide">
+              Project Status
+            </p>
+            <p className="text-3xl font-bold text-gray-900">
+              Active
+            </p>
+            <p className="text-gray-600 text-sm mt-2">
+              Currently operational across India
+            </p>
+          </div>
+
+          <div className="bg-white rounded-xl p-8 shadow-md">
+            <p className="text-gray-600 text-sm font-semibold mb-2 uppercase tracking-wide">
+              Coverage
+            </p>
+            <p className="text-3xl font-bold text-gray-900">
+              Multi-State
+            </p>
+            <p className="text-gray-600 text-sm mt-2">
+              Including Uttar Pradesh surveillance system
+            </p>
+          </div>
+        </div>
+      </div>
+
+  
+    </section>
+ 
+
+
+
+
+
+
+
+
+
+
+    </>
+
   );
 }

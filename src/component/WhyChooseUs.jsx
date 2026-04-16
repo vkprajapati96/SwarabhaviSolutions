@@ -1,5 +1,6 @@
 import { BsCheckCircleFill } from "react-icons/bs";
 import { HiArrowRight } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const features = [
   "Innovative Design Solutions",
@@ -57,8 +58,8 @@ export default function WhyChooseUs() {
 
           {/* Heading */}
           <h2 className="text-4xl md:text-5xl font-black text-[#0d1b2a] leading-tight">
-            Building Trust, <br />
-            One Project <br />
+            Building Trust,
+            One Project 
             at a Time
           </h2>
 
@@ -86,12 +87,12 @@ export default function WhyChooseUs() {
 
           {/* CTA Button */}
           <div>
-            <a
-              href="#"
+            <Link
+              to="contact"
               className="inline-flex items-center gap-2 bg-[#1a1a1a] text-white text-sm font-semibold px-8 py-4 rounded-full hover:bg-[#333] transition-all no-underline"
             >
               Get Free Consultation <HiArrowRight />
-            </a>
+            </Link>
           </div>
 
         </div>

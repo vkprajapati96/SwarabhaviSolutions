@@ -201,9 +201,7 @@ export default function ServicesPage() {
           From architecture consultancy to CCTV surveillance and solar installations — Acanthus delivers
           end-to-end construction and infrastructure solutions in Delhi and beyond.
         </p>
-        <button className="bg-[#1a4e8a] text-white px-8 py-3 rounded-lg text-[15px] hover:bg-[#153d6e] transition-colors">
-          Explore All Services
-        </button>
+        
       </section>
 
       {/* Service Sections */}

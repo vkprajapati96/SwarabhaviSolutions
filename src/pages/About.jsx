@@ -117,7 +117,7 @@ export default function About() {
                 </p>
               </div>
 
-              <div className="bg-[#1a3d6b]/90 rounded-2xl px-5 py-4">
+              <div className="bg-[#C4DCF3]/90 rounded-2xl px-5 py-4">
                 <p className="text-2xl font-black text-white">3+</p>
                 <p className="text-xs text-white/80">
                   Years of Excellence
@@ -247,7 +247,7 @@ export default function About() {
           {/* CTA FIXED */}
           <div>
             <Link
-              to="/projects"
+              to="/project"
               className="inline-flex items-center gap-2 bg-[#1a1a1a] text-white text-sm font-semibold px-7 py-3.5 rounded-full hover:bg-[#333] transition-all no-underline"
             >
               Our Projects <HiArrowRight />
