@@ -285,7 +285,7 @@ export default function PricingCards() {
   };
 
   return (
-    <div className="w-full min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 py-16 px-4">
+    <div className="w-full  bg-gradient-to-b from-gray-50 to-gray-100 py-16 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">

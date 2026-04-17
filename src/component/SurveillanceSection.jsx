@@ -31,7 +31,7 @@ export default function SurveillanceSection() {
   ];
 
   return (
-    <section className="bg-[#EBF3FB] w-full min-h-screen px-6 md:px-16 py-16 flex items-center">
+    <section className="bg-[#EBF3FB] w-full px-6 md:px-16 py-16 flex items-center">
       <div className="w-full max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-12 text-center">

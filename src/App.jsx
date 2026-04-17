@@ -9,24 +9,27 @@ import ConsultationForm from "./component/ConsultationForm";
 import Footer from "./component/layout/Footer";
 import CostEstimator from "./pages/CostEstimator";
 import ServicesPage from "./pages/ServicesPage";
+import ScrollToTop from "./component/ScrollToTop";
 // import About from "./pages/About";
 // import Contact from "./pages/Contact";
 
 function App() {
   return (
     <>
+      <ScrollToTop />
+
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/project" element={<InteriorAndConstruction/>} />
-        <Route path="/about" element={<About/>} />
-        <Route path="/CostEstimator" element={<CostEstimator/>} />
-        <Route path="/contact" element={<ConsultationForm/>} />
-        <Route path="/Services" element={<ServicesPage/>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/project" element={<InteriorAndConstruction />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/CostEstimator" element={<CostEstimator />} />
+        <Route path="/contact" element={<ConsultationForm />} />
+        <Route path="/Services" element={<ServicesPage />} />
 
       </Routes>
-      <Footer/>
+      <Footer />
     </>
   );
 }

@@ -6,10 +6,31 @@ import ServicesSection from "../component/SurveillanceSection";
 import SurveillanceSection from "../component/SurveillanceSection";
 import { Link } from "react-router-dom";
 
+
+import partner1 from "../image/partner/partner1.jpeg"
+import partner2 from "../image/partner/partner2.jpeg"
+import partner3 from "../image/partner/partner3.jpeg"
+import partner4 from "../image/partner/partner4.jpeg"
+import partner5 from "../image/partner/partner5.jpeg"
+import partner6 from "../image/partner/partner6.jpeg"
+import ConsultationForm from "../component/ConsultationForm";
+
+
+const partners = [
+  { id: 1, img: partner1 },
+  { id: 2, img: partner2 },
+  { id: 3, img: partner3 },
+  { id: 4, img: partner4 },
+  { id: 5, img: partner5 },
+  { id: 6, img: partner6 },
+];
+
 export default function Hero() {
+
+
   return (
     <div>
-      <section className="bg-[#EBF3FB] w-full min-h-screen px-6 md:px-16 py-16 flex items-center">
+      <section className="bg-[#EBF3FB] w-full px-6 md:px-16 py-16 flex items-center">
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
           {/* ===== LEFT SIDE — TEXT ===== */}
@@ -90,6 +111,50 @@ export default function Hero() {
 {/* <ServicesSection/>÷ */}
 <SurveillanceSection/>
 
+{/* partner */}
+
+<section className="bg-[#EBF3FB] w-full pt-20  px-6 md:px-16">
+  <div className="max-w-7xl mx-auto">
+
+    {/* HEADING */}
+    <h2 className="text-3xl md:text-4xl font-bold text-center text-[#0d1b2a] mb-12 tracking-wide">
+      Our Partners
+    </h2>
+
+    {/* GRID */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      {partners.map((item) => (
+        <div
+          key={item.id}
+          className="relative w-full h-40 bg-white rounded-2xl overflow-hidden shadow-md flex items-center justify-center p-4 group"
+        >
+          <img
+            src={item.img}
+            alt={`partner-${item.id}`}
+            className="max-h-full object-contain group-hover:scale-110 transition duration-300"
+          />
+        </div>
+      ))}
+    </div>
+
+  </div>
+</section>
+
+{/* form */}
+
+<section className="bg-[#EBF3FB] w-full py-14 px-6 md:px-16">
+  <div className=" mx-auto bg-white rounded-2xl shadow-lg p-4 md:p-4">
+
+    {/* HEADING */}
+    <h2 className="text-3xl md:text-4xl font-bold text-center text-[#0d1b2a] mb-6">
+      Get Free Consultation
+    </h2>
+
+    {/* FORM */}
+    <ConsultationForm />
+
+  </div>
+</section>
     </div>
   );
 }

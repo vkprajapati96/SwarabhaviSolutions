@@ -2,97 +2,99 @@ import { useRef } from "react";
 import { HiArrowRight } from "react-icons/hi";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const waterTankProjects = [
-  {
-    id: 1,
-    name: "RCC Water Tank - UP",
-    capacity: "50,000 Liters",
-    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop"
-  },
-  {
-    id: 2,
-    name: "Underground Reservoir",
-    capacity: "100,000 Liters",
-    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop"
-  },
-  {
-    id: 3,
-    name: "Elevated Water Tank",
-    capacity: "75,000 Liters",
-    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop"
-  },
-  {
-    id: 4,
-    name: "Village Water System",
-    capacity: "30,000 Liters",
-    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop"
-  },
-  {
-    id: 5,
-    name: "Community Water Hub",
-    capacity: "80,000 Liters",
-    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop"
-  },
-  {
-    id: 6,
-    name: "Smart Water Tank",
-    capacity: "120,000 Liters",
-    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=400&fit=crop"
-  }
+import jal1 from "../image/project/jal1.jpeg"
+import jal2 from "../image/project/jal2.jpeg"
+import jal3 from "../image/project/jal3.jpeg"
+import jal4 from "../image/project/jal4.jpeg"
+import jal5 from "../image/project/jal5.jpeg"
+import jal6 from "../image/project/jal6.jpeg"
+import jal7 from "../image/project/jal7.jpeg"
+import jal8 from "../image/project/jal8.jpeg"
+import jal9 from "../image/project/jal9.jpeg"
+import jal10 from "../image/project/jal10.jpeg"
+import jal11 from "../image/project/jal11.jpeg"
+import jal12 from "../image/project/jal12.jpeg"
+
+import coming1 from "../image/project/coming1.jpeg"
+import coming2 from "../image/project/coming2.jpeg"
+import coming3 from "../image/project/coming3.jpeg"
+import coming4 from "../image/project/coming4.jpeg"
+
+
+import completed1 from "../image/project/completed1.jpeg"
+import completed2 from "../image/project/completed2.jpeg"
+import completed3 from "../image/project/completed3.jpeg"
+
+import new1 from "../image/project/new1.jpeg"
+import new2 from "../image/project/new2.jpeg"
+import new3 from "../image/project/new3.jpeg"
+import new4 from "../image/project/new4.jpeg"
+import new5 from "../image/project/new5.jpeg"
+import new6 from "../image/project/new6.jpeg"
+
+
+import certificae from "../image/project/certificae.jpeg"
+
+
+const comingProjects2 = [
+  { id: 1, img:  new1},
+  { id: 2, img:   new2   },
+  { id: 3, img: new3 },
+  { id: 4, img: new4 },
+  { id: 5, img: new5 },
+  { id: 6, img: new6 },
+];
+const comingProjects = [
+  { id: 1, img:  coming1 },
+  { id: 2, img: coming2 },
+  { id: 3, img: coming3 },
+  { id: 4, img: coming4 },
 ];
 
+const completedProject = [
+
+  { id: 1, img:  completed1 },
+  { id: 2, img: completed2 },
+  { id: 3, img: completed3 },
+];
+
+
+
+
+const waterTankProjects = [
+  { id: 1,  img: jal1 },
+  { id: 2,  img: jal2 },
+  { id: 3,  img: jal3 },
+  { id: 4,  img: jal4 },
+];
+
+const waterTankProjects2 = [
+  { id: 1, img: jal9 },
+  { id: 2, img: jal10 },
+  { id: 3, img: jal11 },
+  { id: 5,img: jal12 },
+];
 
 
  
 const jalProjects = [
   {
     id: 1,
-    badge: "Water Infrastructure",
-    title: "Water Tank Construction",
-    desc: "Ghar-Ghar Jal is one of our key projects working under the Ministry of Jal Shakti to provide water services to every citizen of our nation. We construct modern water tanks with advanced engineering and sustainable practices.",
-    points: ["RCC Tank Construction", "Capacity Planning", "Seismic Design"],
-    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=900",
+    img: jal5
   },
   {
     id: 2,
-    badge: "Pipeline Network",
-    title: "Household Tap Connections",
-    desc: "With PM Modi's ambitious vision, we are executing the concept of providing clean tap water to every citizen by 2024. Our pipeline infrastructure ensures safe drinking water reaches every home efficiently.",
-    points: ["PVC Pipe Laying", "Pressure Testing", "Connection Management"],
-    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=900",
+    img: jal6,
   },
   {
     id: 3,
-    badge: "Water Purification",
-    title: "Advanced Water Treatment",
-    desc: "The Har Ghar-Nal Scheme is planned to provide clean drinking water to every household. We implement advanced water purification systems ensuring quality and safety standards are met.",
-    points: ["Filtration Systems", "Quality Testing", "Safety Compliance"],
-    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=900",
+    img: jal7
   },
   {
     id: 4,
-    badge: "Surveillance Systems",
-    title: "Water System Monitoring",
-    desc: "Our surveillance systems monitor water tanks and distribution networks 24/7. We have initiated surveillance infrastructure in Uttar Pradesh ensuring optimal water delivery and system maintenance.",
-    points: ["CCTV Monitoring", "Real-Time Tracking", "Alert Systems"],
-    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=900",
+    img: jal8,
   },
-  {
-    id: 5,
-    badge: "Distribution Network",
-    title: "Smart Water Distribution",
-    desc: "By 2024, drinking water connections will be available to every household through our efficient distribution network. We manage supply chains ensuring no citizen lacks access to clean drinking water.",
-    points: ["Smart Metering", "Loss Prevention", "24/7 Supply"],
-    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=900",
-  },
-  {
-    id: 6,
-    badge: "Rural Infrastructure",
-    title: "Village Water Solutions",
-    desc: "Now no citizen will need to go anywhere for drinking water. Our rural water infrastructure projects bring sustainable water solutions to every village, combating the water crisis across the nation.",
-    points: ["Community Setup", "Maintenance Training", "Sustainability Focus"],
-    img: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=900",
-  },
+ 
 ];
  
 
@@ -141,24 +143,30 @@ const interiors = [
 ];
 
 export default function InteriorAndConstruction() {
-    const scrollRef = useRef(null);
+const scrollRef1 = useRef(null);
+  const scrollRef2 = useRef(null);
+    const scrollRef3 = useRef(null); // ✅ FIX
+
+ 
 
 
-  const scroll = (direction) => {
-    if (scrollRef.current) {
+    const scroll = (direction, ref) => {
+    if (ref?.current) {
       const scrollAmount = 400;
       if (direction === 'left') {
-        scrollRef.current.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+        ref.current.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
       } else {
-        scrollRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        ref.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
       }
     }
   };
 
 
+
   return (
     <>
-    
+    {/* 1 section */}
+
     <section className="bg-[#EBF3FB] w-full py-20 px-6 md:px-16">
       <div className="max-w-7xl mx-auto flex flex-col gap-0">
 
@@ -299,17 +307,18 @@ export default function InteriorAndConstruction() {
     </section>
 
 
+{/* section 2 */}
 
-    <section className="bg-[#EBF3FB] w-full py-20 px-6 md:px-16">
+       <section className="bg-[#EBF3FB] w-full py-20 px-6 md:px-16">
       <div className="max-w-7xl mx-auto">
         
-        {/* HEADER SECTION */}
+        {/* FIRST SECTION - WATER TANKS */}
         <div className="mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Pick Water Tank
           </h2>
           
-          <div className="space-y-4 max-w-3xl">
+          <div className="space-y-4 max-w-3xl mb-12">
             <p className="text-gray-700 leading-relaxed">
               Ghar-Ghar Jal is one of our key projects working under the Ministry of Jal Shakti to provide water services to every citizen of our nation. With PM Modi's ambitious vision of executing and providing clean tap water to every citizen of our country by 2024.
             </p>
@@ -318,67 +327,164 @@ export default function InteriorAndConstruction() {
               Har Ghar-Nal Scheme is a government project planned to provide clean drinking water to every household. By 2024, drinking water connections will be available to every household through this scheme. Now no citizen will need to go anywhere for drinking water. We are engaged in constructing water tanks across India and have initiated construction of water tank and surveillance systems in Uttar Pradesh.
             </p>
           </div>
-        </div>
-
-        {/* HORIZONTAL SCROLL SECTION */}
-        <div className="relative">
-          {/* Scroll Container */}
-          <div
-            ref={scrollRef}
-            className="flex gap-6 overflow-x-auto scrollbar-hide pb-4"
-            style={{ scrollBehavior: 'smooth' }}
-          >
-            {waterTankProjects.map((project) => (
-              <div
-                key={project.id}
-                className="flex-shrink-0 w-80 group cursor-pointer"
-              >
-                <div className="relative h-64 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
-                  <img
-                    src={project.img}
-                    alt={project.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-                  />
-                  
-                  {/* Gradient Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-
-                  {/* Content */}
-                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                    <div className="text-sm font-semibold text-blue-300 mb-2">
-                      Tank {project.id}
-                    </div>
-                    <h3 className="text-xl font-bold mb-2">
-                      {project.name}
-                    </h3>
-                    <p className="text-sm text-gray-200">
-                      Capacity: {project.capacity}
-                    </p>
+ 
+          {/* HORIZONTAL SCROLL SECTION 1 */}
+          <div className="relative">
+            {/* Scroll Container */}
+            <div
+              ref={scrollRef1}
+              className="flex gap-6 overflow-x-auto scrollbar-hide pb-4"
+              style={{ scrollBehavior: 'smooth' }}
+            >
+              {waterTankProjects.map((project) => (
+                <div
+                  key={project.id}
+                  className="flex-shrink-0 w-80 group cursor-pointer"
+                >
+                  <div className="relative h-64 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <img
+                      src={project.img}
+                      alt={project.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+ 
+                    
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+ 
+            {/* Left Arrow */}
+            <button
+              onClick={() => scroll('left', scrollRef1)}
+              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-6 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl hover:bg-blue-50 transition-all"
+              aria-label="Scroll left"
+            >
+              <ChevronLeft className="w-6 h-6 text-gray-900" />
+            </button>
+ 
+            {/* Right Arrow */}
+            <button
+              onClick={() => scroll('right', scrollRef1)}
+              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-6 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl hover:bg-blue-50 transition-all"
+              aria-label="Scroll right"
+            >
+              <ChevronRight className="w-6 h-6 text-gray-900" />
+            </button>
           </div>
-
-          {/* Left Arrow */}
-          <button
-            onClick={() => scroll('left')}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-6 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl hover:bg-blue-50 transition-all"
-            aria-label="Scroll left"
-          >
-            <ChevronLeft className="w-6 h-6 text-gray-900" />
-          </button>
-
-          {/* Right Arrow */}
-          <button
-            onClick={() => scroll('right')}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-6 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl hover:bg-blue-50 transition-all"
-            aria-label="Scroll right"
-          >
-            <ChevronRight className="w-6 h-6 text-gray-900" />
-          </button>
         </div>
+ 
+        {/* SECOND horizontal*/}
 
+        <div className="mb-16 mt-20">
+         
+          {/* HORIZONTAL SCROLL SECTION 2 */}
+          <div className="relative">
+            {/* Scroll Container */}
+            <div
+              ref={scrollRef2}
+              className="flex gap-6 overflow-x-auto scrollbar-hide pb-4"
+              style={{ scrollBehavior: 'smooth' }}
+            >
+              {waterTankProjects2.map((project) => (
+                <div
+                  key={project.id}
+                  className="flex-shrink-0 w-80 group cursor-pointer"
+                >
+                  <div className="relative h-72 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <img
+                      src={project.img}
+                      alt={project.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+ 
+                    {/* Content */}
+                   
+                  </div>
+                </div>
+              ))}
+            </div>
+ 
+            {/* Left Arrow */}
+            <button
+              onClick={() => scroll('left', scrollRef2)}
+              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-6 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl hover:bg-blue-50 transition-all"
+              aria-label="Scroll left"
+            >
+              <ChevronLeft className="w-6 h-6 text-gray-900" />
+            </button>
+ 
+            {/* Right Arrow */}
+            <button
+              onClick={() => scroll('right', scrollRef2)}
+              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-6 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl hover:bg-blue-50 transition-all"
+              aria-label="Scroll right"
+            >
+              <ChevronRight className="w-6 h-6 text-gray-900" />
+            </button>
+          </div>
+        </div>
+           
+          {/* 3 horizontal */}
+
+
+         <div className="mb-16 mt-20">
+         
+          {/* HORIZONTAL SCROLL SECTION 2 */}
+          <div className="relative">
+            {/* Scroll Container */}
+            <div
+              ref={scrollRef3}
+              className="flex gap-6 overflow-x-auto scrollbar-hide pb-4"
+              style={{ scrollBehavior: 'smooth' }}
+            >
+              {waterTankProjects2.map((project) => (
+                <div
+                  key={project.id}
+                  className="flex-shrink-0 w-80 group cursor-pointer"
+                >
+                  <div className="relative h-92 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <img
+                      src={project.img}
+                      alt={project.name}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+ 
+                   
+                  </div>
+                </div>
+              ))}
+            </div>
+ 
+            {/* Left Arrow */}
+            <button
+              onClick={() => scroll('left', scrollRef3)}
+              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-6 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl hover:bg-blue-50 transition-all"
+              aria-label="Scroll left"
+            >
+              <ChevronLeft className="w-6 h-6 text-gray-900" />
+            </button>
+ 
+            {/* Right Arrow */}
+            <button
+              onClick={() => scroll('right', scrollRef3)}
+              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-6 z-10 bg-white rounded-full p-3 shadow-lg hover:shadow-xl hover:bg-blue-50 transition-all"
+              aria-label="Scroll right"
+            >
+              <ChevronRight className="w-6 h-6 text-gray-900" />
+            </button>
+          </div>
+        </div>
+ 
         {/* Stats Section */}
         <div className="mt-20 grid md:grid-cols-3 gap-6">
           <div className="bg-white rounded-xl p-8 shadow-md">
@@ -392,7 +498,7 @@ export default function InteriorAndConstruction() {
               Combined water tank capacity
             </p>
           </div>
-
+ 
           <div className="bg-white rounded-xl p-8 shadow-md">
             <p className="text-gray-600 text-sm font-semibold mb-2 uppercase tracking-wide">
               Project Status
@@ -404,7 +510,7 @@ export default function InteriorAndConstruction() {
               Currently operational across India
             </p>
           </div>
-
+ 
           <div className="bg-white rounded-xl p-8 shadow-md">
             <p className="text-gray-600 text-sm font-semibold mb-2 uppercase tracking-wide">
               Coverage
@@ -418,10 +524,147 @@ export default function InteriorAndConstruction() {
           </div>
         </div>
       </div>
-
-  
+ 
+     
     </section>
  
+{/* section 3 */}
+
+{/* COMING PROJECT SECTION */}
+<section className="bg-[#EBF3FB] w-full py-20 px-6 md:px-16">
+  <div className="max-w-7xl mx-auto">
+
+    {/* Heading */}
+    <div className="mb-12">
+      <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        COMING PROJECT
+      </h2>
+
+      <p className="text-lg text-gray-700">
+        The Empire Groupe of Company , Location :- Jewar Airport , Uttar - Pradesh
+      </p>
+
+      <p className="text-gray-600 mt-2">
+        Before Completed Site View
+      </p>
+    </div>
+
+    {/* GRID */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      {comingProjects.map((item) => (
+        <div
+          key={item.id}
+          className="relative h-72 rounded-2xl overflow-hidden shadow-md group"
+        >
+          <img
+            src={item.img}
+            alt={`project-${item.id}`}
+            className="w-full h-full object-cover group-hover:scale-110 transition duration-300"
+          />
+        </div>
+      ))}
+    </div>
+
+  </div>
+</section>
+
+<section className="bg-[#EBF3FB] w-full pb-20 px-6 md:px-16">
+  <div className="max-w-7xl mx-auto">
+
+    {/* Heading */}
+    <div className="mb-12">
+      <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+         After Completed Site View
+      </h2>
+    </div>
+
+    {/* GRID */}
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+  {completedProject.map((item) => (
+    <div
+      key={item.id}
+      className="relative w-full h-72 rounded-2xl overflow-hidden shadow-md group"
+    >
+      <img
+        src={item.img}
+        alt={`project-${item.id}`}
+        className="w-full h-full object-cover group-hover:scale-110 transition duration-300"
+      />
+    </div>
+  ))}
+</div>
+  </div>
+</section>
+
+
+
+<section className="bg-[#EBF3FB] w-full py-20 px-6 md:px-16">
+  <div className="max-w-7xl mx-auto">
+
+    {/* HEADING */}
+    <div className="mb-12">
+      <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        COMING PROJECT
+      </h2>
+
+      <p className="text-lg font-semibold text-gray-800">
+        OMSHRI REALTECH PVT.LTD PROJECT :- ( VEDIC CITY )
+      </p>
+
+      <p className="text-gray-700">
+        LOCATION :- SIWAL, GOVARDHAN, MATHURA, UTTAR PRADESH
+      </p>
+
+      <p className="text-gray-600 mt-2">
+        Before Completed Site View
+      </p>
+    </div>
+
+    {/* GRID */}
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      {comingProjects2.map((item) => (
+        <div
+          key={item.id}
+          className="relative w-full h-64 rounded-2xl overflow-hidden shadow-md group"
+        >
+          <img
+            src={item.img}
+            alt={`project-${item.id}`}
+            className="w-full h-full object-cover group-hover:scale-110 transition duration-300"
+          />
+        </div>
+      ))}
+    </div>
+
+  </div>
+</section>
+
+{/* certificate */}
+<section className="bg-[#EBF3FB] w-full py-20 px-6 md:px-16">
+  <div className="max-w-5xl mx-auto">
+
+    {/* HEADING */}
+    <h2 className="text-3xl md:text-4xl font-bold text-center text-[#0d1b2a] mb-10 tracking-wide">
+      COMPETITION   CERTIFICATE
+    </h2>
+
+    {/* CERTIFICATE IMAGE */}
+    <div className="relative w-full rounded-2xl overflow-hidden shadow-lg">
+      <img
+        src={certificae}
+        alt="certificate"
+        className="w-full h-auto object-contain"
+      />
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
 
 
 
