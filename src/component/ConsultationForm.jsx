@@ -90,7 +90,7 @@ const ConsultationForm = () => {
               </div>
               <div>
                 <p className="text-xs text-[#4a5568] font-medium">Call Us</p>
-                <p className="text-[#0d1b2a] font-bold text-sm">+91 98765 43210</p>
+                <p className="text-[#0d1b2a] font-bold text-sm">+ 91 9654718222</p>
               </div>
             </div>
 
@@ -100,7 +100,7 @@ const ConsultationForm = () => {
               </div>
               <div>
                 <p className="text-xs text-[#4a5568] font-medium">Email Us</p>
-                <p className="text-[#0d1b2a] font-bold text-sm">info@swarabhavi.com</p>
+                <p className="text-[#0d1b2a] font-bold text-sm">swarabhavisolutions@gmail.com</p>
               </div>
             </div>
 
