@@ -7,3 +7,15 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+#root {
+  overflow-x: hidden;
+}

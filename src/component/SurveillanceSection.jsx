@@ -34,15 +34,15 @@ export default function SurveillanceSection() {
     <section className="bg-[#EBF3FB] w-full px-6 md:px-16 py-16 flex items-center">
       <div className="w-full max-w-7xl mx-auto">
         {/* Header */}
-        <div className="mb-12 text-center">
-          <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
-            SURVEILLANCE
-          </h2>
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
-            Comprehensive security solutions for residential, commercial, industrial, and public spaces. Trusted by sectors nationwide.
-          </p>
-        </div>
+       <div className="mb-12 text-center px-2">
+  <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight break-words">
+    SURVEILLANCE
+  </h2>
 
+  <p className="text-sm sm:text-base md:text-lg text-gray-700 max-w-3xl mx-auto leading-relaxed">
+    Comprehensive security solutions for residential, commercial, industrial, and public spaces. Trusted by sectors nationwide.
+  </p>
+</div>
         {/* Services Grid */}
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           {services.map((service, idx) => {
