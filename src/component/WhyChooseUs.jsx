@@ -57,20 +57,13 @@ export default function WhyChooseUs() {
           </div>
 
           {/* Heading */}
-          <h2 className="text-4xl md:text-5xl font-black text-[#0d1b2a] leading-tight">
-            Building Trust,
-            One Project 
-            at a Time
-          </h2>
+<h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#0d1b2a] leading-tight tracking-tight mb-6 max-w-2xl">
+  Building Trust, One Project at a Time
+</h2>
 
-          {/* Description */}
-          <p className="text-[#4a5568] text-base md:text-lg leading-relaxed max-w-md">
-            We combine modern design with precision craftsmanship to deliver
-            homes that stand the test of time - built around your vision,
-            your lifestyle, and your dreams.
-          </p>
-
-          {/* Features Grid */}
+<p className="text-[#4a5568] text-base md:text-lg leading-relaxed max-w-xl">
+  We combine modern design with precision craftsmanship to deliver homes that stand the test of time — built around your vision, your lifestyle, and your dreams.
+</p>          {/* Features Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {features.map((feature, i) => (
               <div

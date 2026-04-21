@@ -35,7 +35,7 @@ export default function SurveillanceSection() {
       <div className="w-full max-w-7xl mx-auto">
         {/* Header */}
        <div className="mb-12 text-center px-2">
-  <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight break-words">
+  <h2 className="text-3xl  md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 leading-tight break-words">
     SURVEILLANCE
   </h2>
 

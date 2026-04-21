@@ -64,7 +64,7 @@ export default function HowGetStarted() {
       <div className="max-w-7xl mx-auto">
 
         {/* ===== HEADING ===== */}
-        <h2 className="text-4xl md:text-5xl font-black text-[#0d1b2a] text-center mb-16">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-black text-[#0d1b2a] text-center mb-16">
           How to Get Started
         </h2>
 

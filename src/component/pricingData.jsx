@@ -289,10 +289,10 @@ export default function PricingCards() {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
             Pricing
           </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-600 text-base md:text-lg max-w-2xl mx-auto">
             We offer transparent and competitive pricing tailored to your project's needs. Get the best value for your investment without compromising on quality or service.
           </p>
         </div>
@@ -306,11 +306,11 @@ export default function PricingCards() {
             >
               {/* Card Header */}
               <div className="p-8 border-b-2 border-white/50">
-                <h2 className={`text-4xl font-bold ${plan.textColor} mb-2`}>
+                <h2 className={`text-3xl font-bold ${plan.textColor} mb-2`}>
                   {plan.name}
                 </h2>
                 <div className="flex items-baseline gap-1">
-                  <span className="text-3xl font-bold text-gray-900">₹ {plan.price}</span>
+                  <span className="text-2xl font-bold text-gray-900">₹ {plan.price}</span>
                   <span className="text-gray-700">/sq.ft</span>
                 </div>
               </div>

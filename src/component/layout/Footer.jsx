@@ -40,6 +40,7 @@ const Footer = () => {
             <Link className="hover:text-[#1a3d6b]" to="/CostEstimator">Cost Estimator</Link>
             <Link className="hover:text-[#1a3d6b]" to="/services">Services</Link>
             <Link className="hover:text-[#1a3d6b]" to="/project">Our Projects</Link>
+            <Link className="hover:text-[#1a3d6b]" to="/blog">Blogs</Link>
             <Link className="hover:text-[#1a3d6b]" to="/contact">Contact Us</Link>
           </div>
         </div>

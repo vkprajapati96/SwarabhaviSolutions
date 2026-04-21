@@ -9,6 +9,7 @@ const navLinks = [
   { label: "Cost Estimator", to: "/CostEstimator" },
   { label: "Services", to: "/services" },
   { label: "Our Projects", to: "/project" },
+  { label: "Blogs", to: "/blog" },
   { label: "Contact Us", to: "/contact" },
 ];
 

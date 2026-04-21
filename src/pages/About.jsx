@@ -111,7 +111,7 @@ export default function About() {
             {/* Stats */}
             <div className="absolute bottom-8 left-8 right-8 grid grid-cols-2 gap-4">
               <div className="bg-white/90 rounded-2xl px-5 py-4">
-                <p className="text-2xl font-black text-[#0d1b2a]">500+</p>
+                <p className="text-2xl font-black text-[#0d1b2a]">12+</p>
                 <p className="text-xs text-[#4a5568]">
                   Projects Completed
                 </p>

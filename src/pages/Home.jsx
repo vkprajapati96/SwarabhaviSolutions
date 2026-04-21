@@ -6,6 +6,8 @@ import SurveillanceSection from "../component/SurveillanceSection";
 import { Link } from "react-router-dom";
 
 
+import blog9 from "../image/blog/blog9.jpeg"
+import blog1 from "../image/blog/blog1.jpeg"
 import partner1 from "../image/partner/partner1.jpeg"
 import partner2 from "../image/partner/partner2.jpeg"
 import partner3 from "../image/partner/partner3.jpeg"
@@ -16,13 +18,16 @@ import ConsultationForm from "../component/ConsultationForm";
 
 
 const partners = [
-  { id: 1, img: partner1 },
-  { id: 2, img: partner2 },
-  { id: 3, img: partner3 },
-  { id: 4, img: partner4 },
   { id: 5, img: partner5 },
   { id: 6, img: partner6 },
 ];
+
+const clients =[
+  {id:1,img:partner1},
+  {id:2,img:partner2},
+  {id:3,img:partner3},
+  {id:4,img:partner4},
+]
 
 export default function Hero() {
 
@@ -59,7 +64,7 @@ export default function Hero() {
             {/* RIGHT - Interior Image */}
             <div className="rounded-2xl overflow-hidden shadow-lg h-[400px]">
               <img
-                src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&h=400&fit=crop"
+                src={blog9}
                 alt="Interior Design"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />
@@ -152,7 +157,7 @@ export default function Hero() {
               {/* Right — tall */}
               <div className="rounded-2xl overflow-hidden shadow-lg row-span-2">
                 <img
-                  src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=600&fit=crop"
+                src={blog1}
                   alt="Design Excellence"
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                 />
@@ -233,33 +238,62 @@ export default function Hero() {
 
       {/* partner */}
 
-      <section className="bg-[#EBF3FB] w-full pt-20  px-6 md:px-16">
-        <div className="max-w-7xl mx-auto">
+     <section className="bg-[#EBF3FB] w-full pt-20 px-6 md:px-16">
+  <div className="max-w-7xl mx-auto">
 
-          {/* HEADING */}
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#0d1b2a] mb-12 tracking-wide">
-            Our Partners
-          </h2>
+    {/* HEADING */}
+    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-[#0d1b2a] mb-12 tracking-wide">
+      Our Partners
+    </h2>
 
-          {/* GRID */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {partners.map((item) => (
-              <div
-                key={item.id}
-                className="relative w-full h-40 bg-white rounded-2xl overflow-hidden shadow-md flex items-center justify-center p-4 group"
-              >
-                <img
-                  src={item.img}
-                  alt={`partner-${item.id}`}
-                  className="max-h-full object-contain group-hover:scale-110 transition duration-300"
-                />
-              </div>
-            ))}
-          </div>
+    {/* GRID / FLEX */}
+    <div className="flex flex-wrap justify-center gap-8">
+  {partners.map((item) => (
+    <div
+      key={item.id}
+      className="w-full sm:w-[45%] md:w-[40%] lg:w-[44%] h-48 bg-white rounded-2xl overflow-hidden shadow-md flex items-center justify-center p-6 group"
+    >
+      <img
+        src={item.img}
+        alt={`partner-${item.id}`}
+        className="max-h-full object-contain group-hover:scale-110 transition duration-300"
+      />
+    </div>
+  ))}
+</div>
 
+  </div>
+</section>
+
+
+{/* our clients */}
+
+<section className="bg-[#EBF3FB] w-full pt-20 px-6 md:px-16">
+  <div className="max-w-7xl mx-auto">
+
+    {/* HEADING */}
+    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-[#0d1b2a] mb-12 tracking-wide">
+      Our Clients
+    </h2>
+
+    {/* GRID 2x2 */}
+    <div className="grid grid-cols-2 gap-8 max-w-6xl mx-auto">
+      {clients.map((item) => (
+        <div
+          key={item.id}
+          className="h-40 bg-white rounded-2xl overflow-hidden shadow-md flex items-center justify-center p-4 group"
+        >
+          <img
+            src={item.img}
+            alt={`client-${item.id}`}
+            className="max-h-full object-contain group-hover:scale-110 transition duration-300"
+          />
         </div>
-      </section>
+      ))}
+    </div>
 
+  </div>
+</section>
       {/* form */}
 
       <section className="bg-[#EBF3FB] w-full py-14 px-6 md:px-16">
