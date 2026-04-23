@@ -6,6 +6,7 @@ import SurveillanceSection from "../component/SurveillanceSection";
 import { Link } from "react-router-dom";
 
 
+import blog10 from "../image/blog/blog10.jpeg"
 import blog9 from "../image/blog/blog9.jpeg"
 import blog1 from "../image/blog/blog1.jpeg"
 import partner1 from "../image/partner/partner1.jpeg"
@@ -64,7 +65,7 @@ export default function Hero() {
             {/* RIGHT - Interior Image */}
             <div className="rounded-2xl overflow-hidden shadow-lg h-[400px]">
               <img
-                src={blog9}
+                src={blog10}
                 alt="Interior Design"
                 className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
               />
@@ -148,7 +149,7 @@ export default function Hero() {
               {/* Top Left */}
               <div className="rounded-2xl overflow-hidden shadow-lg">
                 <img
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=300&fit=crop"
+                  src="https://media.istockphoto.com/id/171591165/photo/new-kitchen-in-modern-luxury-home.webp?a=1&b=1&s=612x612&w=0&k=20&c=dyDtLiIkmiSmtmCXo7T8yEqNQs7SXU61FPMaW28yoso="
                   alt="Modern Architecture"
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                 />
@@ -157,7 +158,7 @@ export default function Hero() {
               {/* Right — tall */}
               <div className="rounded-2xl overflow-hidden shadow-lg row-span-2">
                 <img
-                src={blog1}
+                src="https://images.unsplash.com/photo-1649083048597-d7b4f1e8a386?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Design Excellence"
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                 />
@@ -166,7 +167,7 @@ export default function Hero() {
               {/* Bottom Left */}
               <div className="rounded-2xl overflow-hidden shadow-lg">
                 <img
-                  src="https://images.unsplash.com/photo-1560184897-ae75f418493e?w=600&h=300&fit=crop"
+                  src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGl2aW5nJTIwcm9vbXxlbnwwfHwwfHx8MA%3D%3D"
                   alt="Living Spaces"
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
                 />

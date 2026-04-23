@@ -101,7 +101,7 @@ export default function About() {
           {/* RIGHT IMAGE */}
           <div className="relative h-[500px] md:h-[580px] rounded-3xl overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=900"
+              src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?q=80&w=1992&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="Interior"
               className="w-full h-full object-cover"
             />
@@ -109,7 +109,7 @@ export default function About() {
             <div className="absolute inset-0 bg-gradient-to-t from-[#0d1b2a]/50 via-transparent to-transparent" />
 
             {/* Stats */}
-            <div className="absolute bottom-8 left-8 right-8 grid grid-cols-2 gap-4">
+            <div className="absolute bottom-4 left-8 right-8 grid grid-cols-2 gap-4">
               <div className="bg-white/90 rounded-2xl px-5 py-4">
                 <p className="text-2xl font-black text-[#0d1b2a]">12+</p>
                 <p className="text-xs text-[#4a5568]">
@@ -177,23 +177,14 @@ export default function About() {
         {/* LEFT — Image */}
         <div className="relative h-[500px] md:h-[580px] rounded-3xl overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900"
+            src="https://plus.unsplash.com/premium_photo-1661926818635-3d413932f2a9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGxpdmluZyUyMHJvb20lMjBpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHwwfHx8MA%3D%3D"
             alt="Our Mission"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0d1b2a]/60 via-transparent to-transparent" />
 
           {/* Overlay */}
-          <div className="absolute bottom-8 left-8 right-8">
-            <div className="bg-white/90 backdrop-blur-sm rounded-2xl px-6 py-5">
-              <p className="text-[#2176B8] text-xs font-bold uppercase tracking-widest mb-1">
-                Our Promise
-              </p>
-              <p className="text-[#0d1b2a] text-base font-bold">
-                Seamless service & consistency in every project we deliver.
-              </p>
-            </div>
-          </div>
+          
         </div>
 
         {/* RIGHT — Content */}
@@ -215,9 +206,6 @@ export default function About() {
           {/* Mission 1 */}
           <div className="bg-white border border-[#d5e8f5] rounded-2xl p-6">
             <div className="flex items-center gap-3 mb-2">
-              <div className="w-10 h-10 bg-[#EBF3FB] border border-[#cfe0f0] rounded-xl flex items-center justify-center">
-                🎯
-              </div>
               <h4 className="text-[#0d1b2a] font-bold text-lg">
                 Seamless Service Delivery
               </h4>
@@ -231,9 +219,7 @@ export default function About() {
           {/* Mission 2 */}
           <div className="bg-[#C4DCF3] rounded-2xl p-6">
             <div className="flex items-center gap-3 mb-2">
-              <div className="w-10 h-10 bg-white/10 border border-white/20 rounded-xl flex items-center justify-center">
-                🚀
-              </div>
+             
               <h4 className="text-white font-bold text-lg">
                 Future-Shaping Vision
               </h4>

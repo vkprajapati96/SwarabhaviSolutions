@@ -27,7 +27,7 @@ export default function WhyChooseUs() {
         {/* ===== LEFT — IMAGE ===== */}
         <div className="relative h-[580px] rounded-3xl overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900"
+            src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxpdmluZyUyMHJvb218ZW58MHx8MHx8fDA%3D"
             alt="Interior Design"
             className="w-full h-full object-cover"
           />
@@ -36,7 +36,7 @@ export default function WhyChooseUs() {
 
           {/* Badge on image */}
           <div className="absolute bottom-8 left-8 bg-white rounded-2xl px-6 py-4 shadow-lg">
-            <p className="text-3xl font-black text-[#0d1b2a]">15+</p>
+            <p className="text-3xl font-black text-[#0d1b2a]">3+</p>
             <p className="text-sm text-[#4a5568] font-medium">Years of Excellence</p>
           </div>
 

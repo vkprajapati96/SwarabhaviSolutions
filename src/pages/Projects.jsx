@@ -1,6 +1,10 @@
 import { useRef } from "react";
 import { HiArrowRight } from "react-icons/hi";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+ import { useNavigate } from "react-router-dom";
+import { data } from "../data"
+import Card from "../component/Card";
+
 
 import jal1 from "../image/project/jal1.jpeg"
 import jal2 from "../image/project/jal2.jpeg"
@@ -142,10 +146,12 @@ const interiors = [
   },
 ];
 
-export default function InteriorAndConstruction() {
+export default function Projects() {
 const scrollRef1 = useRef(null);
   const scrollRef2 = useRef(null);
     const scrollRef3 = useRef(null); // ✅ FIX
+
+    const navigate = useNavigate();
 
  
 
@@ -203,6 +209,27 @@ const scrollRef1 = useRef(null);
             </a>
           </div>
         </div>
+
+        {/* PROJECT CARDS */}
+         <section className="bg-[#EBF3FB] pb-16 mb-12 px-6 md:px-16">
+      <div className="max-w-7xl mx-auto">
+
+        {/* Heading */}
+        <h2 className="text-3xl md:text-4xl font-bold text-[#0d1b2a] mb-10">
+          Explore Projects
+        </h2>
+
+        {/* Cards Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {data.map((item) => (
+            <Card key={item.id} item={item} />
+          ))}
+        </div>
+
+      </div>
+    </section>
+
+
 
         {/* SECTIONS */}
         <div className="flex flex-col gap-28">
@@ -679,3 +706,4 @@ const scrollRef1 = useRef(null);
 
   );
 }
+

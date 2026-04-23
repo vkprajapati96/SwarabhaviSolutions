@@ -66,7 +66,7 @@ const ConsultationForm = () => {
           {/* Image */}
           <div className="relative h-[380px] rounded-3xl overflow-hidden">
             <img
-              src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=900"
+              src="https://images.unsplash.com/photo-1632829882891-5047ccc421bc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxpdmluZyUyMHJvb218ZW58MHx8MHx8fDA%3D"
               alt="Free Consultation"
               className="w-full h-full object-cover"
             />

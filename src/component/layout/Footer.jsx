@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../image/logo.jpeg";
+import logo from "../../image/logo.png";
 
 const Footer = () => {
   return (
@@ -10,17 +10,17 @@ const Footer = () => {
 
         {/* LEFT - BRAND */}
         <div className="flex flex-col gap-4">
-          <div className="flex items-center gap-3">
+          <Link
+            to="/"
+            className="flex items-center no-underline hover:opacity-80 transition-opacity"
+          >
             <img
               src={logo}
-              alt="Logo"
-              className="w-[50px] h-[50px] object-cover rounded-lg"
+              alt="BuildCraft Logo"
+              className="h-[50px] sm:h-[60px] md:h-[65px] lg:h-[60px] w-auto object-contain"
             />
-
-            <h2 className="text-xl md:text-2xl font-bold text-[#1a3d6b]">
-              Swarabhavi Solutions
-            </h2>
-          </div>
+          </Link>          {/* ===== NAV LINKS (Desktop Only) ===== */}
+          
 
           <p className="text-gray-600 text-sm leading-relaxed">
             Build your dream home with our expert construction services.
@@ -94,4 +94,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer;                            
