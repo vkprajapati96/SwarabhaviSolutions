@@ -19,9 +19,9 @@ import aerocity4 from "./image/Aerocity/image4.jpeg";
 import chandrodaya1 from "./image/Chandrodya/chandrodaya1.jpeg";
 import chandrodaya2 from "./image/Chandrodya/chandrodaya2.jpeg";
 
-import crystalvalley1 from "./image/CrystalValley/crystalvalley1.jpeg";
-import crystalvalley2 from "./image/CrystalValley/crystalvalley2.jpeg";
-import crystalvalley3 from "./image/CrystalValley/crystalvalley3.jpeg";
+import crystalvalley1 from "./image/Crystalvalley/crystalvalley1.jpeg";
+import crystalvalley2 from "./image/Crystalvalley/crystalvalley2.jpeg";
+import crystalvalley3 from "./image/Crystalvalley/crystalvalley3.jpeg";
 
 import parkview1 from "./image/ParkView/parkview1.jpeg";
 import parkview2 from "./image/ParkView/parkview2.jpeg";
