@@ -23,12 +23,12 @@ import crystalvalley1 from "./image/Crystalvalley/crystalvalley1.jpeg";
 import crystalvalley2 from "./image/Crystalvalley/crystalvalley2.jpeg";
 import crystalvalley3 from "./image/Crystalvalley/crystalvalley3.jpeg";
 
-import parkview1 from "./image/ParkView/parkview1.jpeg";
-import parkview2 from "./image/ParkView/parkview2.jpeg";
-import parkview3 from "./image/ParkView/parkview3.jpeg";
-import parkview4 from "./image/ParkView/parkview4.jpeg";
-import parkview5 from "./image/ParkView/parkview5.jpeg";
-import parkview6 from "./image/ParkView/parkview6.jpeg";
+import parkview1 from "./image/Parkview/parkview1.jpeg";
+import parkview2 from "./image/Parkview/parkview2.jpeg";
+import parkview3 from "./image/Parkview/parkview3.jpeg";
+import parkview4 from "./image/Parkview/parkview4.jpeg";
+import parkview5 from "./image/Parkview/parkview5.jpeg";
+import parkview6 from "./image/Parkview/parkview6.jpeg";
 
 import d1 from "./image/Dishapuram/dishapuram1.jpeg";
 import d2 from "./image/Dishapuram/dishapuram2.jpeg";
