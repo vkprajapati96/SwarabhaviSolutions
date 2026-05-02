@@ -43,7 +43,9 @@ import plot4 from "./image/Brijghat/Plot4.jpeg";
 import plot5 from "./image/Brijghat/Plot5.jpeg";
 import plot6 from "./image/Brijghat/Plot6.jpeg";
 
+
 import nearest1 from "./image/Brijghat/nearest1.jpeg"
+
 import nearest2 from "./image/Brijghat/nearest2.jpeg"
 import nearest3 from "./image/Brijghat/nearest3.jpeg"
 import nearest4 from "./image/Brijghat/nearest4.jpeg"
