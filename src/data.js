@@ -36,12 +36,13 @@ import d3 from "./image/Dishapuram/dishapuram3.jpeg";
 import d4 from "./image/Dishapuram/dishapuram4.jpeg";
 
 import brijghat from "./image/Brijghat/brijghat.jpeg";
-import plot1 from "./image/Brijghat/Plot1.jpeg";
-import plot2 from "./image/Brijghat/Plot2.jpeg";
-import plot3 from "./image/Brijghat/Plot3.jpeg";
-import plot4 from "./image/Brijghat/Plot4.jpeg";
-import plot5 from "./image/Brijghat/Plot5.jpeg";
-import plot6 from "./image/Brijghat/Plot6.jpeg";
+
+import plot1 from "./image/Brijghat/plot1.jpeg";
+import plot2 from "./image/Brijghat/plot2.jpeg";
+import plot3 from "./image/Brijghat/plot3.jpeg";
+import plot4 from "./image/Brijghat/plot4.jpeg";
+import plot5 from "./image/Brijghat/plot5.jpeg";
+import plot6 from "./image/Brijghat/plot6.jpeg";
 
 
 import nearest1 from "./image/Brijghat/nearest1.jpeg"
