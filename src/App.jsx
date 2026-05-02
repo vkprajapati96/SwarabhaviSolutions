@@ -11,9 +11,7 @@ import ServicesPage from "./pages/ServicesPage";
 import ScrollToTop from "./component/ScrollToTop";
 import Blog from "./pages/Blog";
 import Projects from "./pages/Projects";
-import Detail from "./pages/Detail";
-// import About from "./pages/About";
-// import Contact from "./pages/Contact";
+import ProjectDetails from "./pages/ProjectDetails";
 
 function App() {
   return (
@@ -30,7 +28,7 @@ function App() {
         <Route path="/contact" element={<ConsultationForm />} />
         <Route path="/Services" element={<ServicesPage />} />
         <Route path="/blog" element={<Blog/>} />
-         <Route path="/project/:id" element={<Detail />} />
+         <Route path="/project/:id" element={<ProjectDetails />} />
 
 
       </Routes>
