@@ -33,6 +33,7 @@ import parkview6 from "./image/Parkview/parkview6.jpeg";
 import d1 from "./image/Dishapuram/dishapuram1.jpeg";
 import d2 from "./image/Dishapuram/dishapuram2.jpeg";
 import d3 from "./image/Dishapuram/dishapuram3.jpeg";
+
 import d4 from "./image/Dishapuram/dishapuram4.jpeg";
 
 import brijghat from "./image/Brijghat/brijghat.jpeg";
