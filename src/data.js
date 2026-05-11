@@ -60,7 +60,7 @@ import chronicle2 from "./image/Chronicle/chronicle2.jpeg";
 import chronicle3 from "./image/Chronicle/chronicle3.jpeg";
 import chronicle4 from "./image/Chronicle/chronicle4.jpeg";
 
-import kingpark from "./image/KingPark/kingpark.jpeg";
+import kingpark from "./image/kingpark/kingpark.jpeg";
 
 
 export const data = [
