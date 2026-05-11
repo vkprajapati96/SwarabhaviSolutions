@@ -15,12 +15,25 @@ import partner3 from "../image/partner/partner3.jpeg"
 import partner4 from "../image/partner/partner4.jpeg"
 import partner5 from "../image/partner/partner5.jpeg"
 import partner6 from "../image/partner/partner6.jpeg"
+import partner7 from "../image/partner/partner7.jpeg"
+import partner8 from "../image/partner/partner8.jpeg"
+import partner9 from "../image/partner/partner9.jpeg"
+import partner10 from "../image/partner/partner10.jpeg"
+import partner11 from "../image/partner/partner11.jpeg"
+import partner12 from "../image/partner/partner12.jpeg"
+import partner13 from "../image/partner/partner13.jpeg"
+import partner14 from "../image/partner/partner14.jpeg"
+import partner15 from "../image/partner/partner15.jpeg"
+import partner16 from "../image/partner/partner16.jpeg"
+import partner17 from "../image/partner/partner17.jpeg"
 import ConsultationForm from "../component/ConsultationForm";
 
 
 const partners = [
   { id: 5, img: partner5 },
   { id: 6, img: partner6 },
+  { id: 7, img: partner7 },
+  { id: 8, img: partner8 },
 ];
 
 const clients =[
@@ -28,6 +41,15 @@ const clients =[
   {id:2,img:partner2},
   {id:3,img:partner3},
   {id:4,img:partner4},
+  {id:5,img:partner9},
+  {id:6,img:partner10}, 
+  {id:7,img:partner11},
+  {id:8,img:partner12},     
+  {id:9,img:partner13},
+  {id:10,img:partner14},
+  {id:11,img:partner15},
+  {id:12,img:partner16},
+  {id:13,img:partner17},
 ]
 
 export default function Hero() {

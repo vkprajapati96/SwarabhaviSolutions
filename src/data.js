@@ -14,10 +14,9 @@ import aerocity2 from "./image/Aerocity/image2.jpeg";
 import aerocity3 from "./image/Aerocity/image3.jpeg";
 import aerocity4 from "./image/Aerocity/image4.jpeg";
 
-// import chandrodaya1 from "./image/Chandrodaya/chandrodaya1.jpeg";
-// import chandrodaya2 from "./image/Chandrodaya2.jpeg";
 import chandrodaya1 from "./image/Chandrodya/chandrodaya1.jpeg";
 import chandrodaya2 from "./image/Chandrodya/chandrodaya2.jpeg";
+import chandrodaya from "./image/Chandrodya/chandrodaya.jpeg";
 
 import crystalvalley1 from "./image/Crystalvalley/crystalvalley1.jpeg";
 import crystalvalley2 from "./image/Crystalvalley/crystalvalley2.jpeg";
@@ -33,7 +32,6 @@ import parkview6 from "./image/Parkview/parkview6.jpeg";
 import d1 from "./image/Dishapuram/dishapuram1.jpeg";
 import d2 from "./image/Dishapuram/dishapuram2.jpeg";
 import d3 from "./image/Dishapuram/dishapuram3.jpeg";
-
 import d4 from "./image/Dishapuram/dishapuram4.jpeg";
 
 import brijghat from "./image/Brijghat/brijghat.jpeg";
@@ -55,9 +53,129 @@ import nearest5 from "./image/Brijghat/nearest5.jpeg";
 import paymentplan from "./image/Brijghat/paymentPlan.jpeg";
 
 
+
+
+import chronicle1 from "./image/Chronicle/chronicle1.jpeg";
+import chronicle2 from "./image/Chronicle/chronicle2.jpeg";
+import chronicle3 from "./image/Chronicle/chronicle3.jpeg";
+import chronicle4 from "./image/Chronicle/chronicle4.jpeg";
+
+import kingpark from "./image/KingPark/kingpark.jpeg";
+
+
 export const data = [
   {
-    id: 1,
+  id: 0,
+  title: "Sona Residency Chronicle Realty",
+  desc: "Premium commercial & residential plotted development in Sector-82, Noida",
+
+
+  images: [chronicle1, chronicle2, chronicle3, chronicle4], // 👈 4 images
+
+  fullDesc: `
+Sona Residency is a premium commercial and residential plotted development located at Sector-82, Noida, opposite Kendriya Vihar and adjoining ISBT.
+
+The project is developed by SAMRAT ACRES LLP under signing authority Mr. Mohit Sharma and promoted by Chronicle Realty. It is spread across approximately 14,000+ sq. yards of prime land.
+
+PROJECT DETAILS:
+• Project Type: Commercial & Residential Plots  
+• Land Use: Freehold, Mixed Land Use (Leased Back from Supreme Court of India)  
+
+PLOT DETAILS:
+• Commercial Plots: Starting from 165 Sq. Yards  
+• Residential Plots: Starting from 131 Sq. Yards  
+
+INFRASTRUCTURE:
+• Internal Roads: 33 ft & 25 ft wide RCC roads  
+• External Roads: 30 meters & 24 meters wide  
+• Sewerage Line  
+• Electricity Connection  
+• Gated Society  
+• CCTV Surveillance  
+• Security Guard Room  
+
+LOCATION ADVANTAGE:
+• Opposite Kendriya Vihar  
+• Adjoining & Opposite ISBT Sector-82 Noida  
+• More than 1 KM long Government Park adjoining the project  
+
+PRICING:
+• Commercial Plots: ₹2,89,990 / Sq. Yard  
+• Residential Plots: ₹1,89,990 / Sq. Yard  
+
+GOVERNMENT DETAILS:
+• Circle Rate: ₹22,000 / Sq. Yard  
+• White Value Considered: Maximum ₹75,000 / Sq. Yard  
+• Registrar Office: Taluka Dadri  
+
+PAYMENT PLAN:
+• Registry within maximum 100 days  
+
+IDEAL FOR:
+Residential Villas, Shops, Showrooms, Training Centers, Nursing Homes, Offices, Hotels, Restaurants, Shop-cum-office, Floor Development & Investment purpose.
+
+This project is highly suitable for both end-use and high-return investment due to its prime Noida location and strong infrastructure development.
+  `,
+
+  location: "Sector-82, Noida",
+
+  capacity: "Commercial & Residential Plots",
+
+  amenities: [
+    "Gated Society",
+    "CCTV Security",
+    "RCC Roads (33 ft & 25 ft)",
+    "Sewerage System",
+    "Electricity Connection",
+    "Guard Room",
+    "1 KM+ Government Park",
+  ],
+},
+
+{
+  id: 1,
+  title: "The King's Park, Kotdwar",
+  desc: "Premium farmhouse & villa plots near Rajaji National Park",
+
+  img: kingpark,
+
+  images: [kingpark],
+
+  fullDesc: `
+The King's Park is a premium farmhouse and villa plots project located in Kotdwar, Uttarakhand, near Rajaji National Park.
+
+The project offers luxury villa plots ranging from 1,000 sq. yards to 2,500 sq. yards, designed for premium lifestyle living surrounded by nature.
+
+KEY HIGHLIGHTS:
+• Premium Villa & Farmhouse Plots  
+• Plot Size: 1,000 – 2,500 Sq. Yards  
+• Location: Kotdwar, Uttarakhand  
+• Near Rajaji National Park  
+• Peaceful nature-surrounded environment  
+
+PRICE:
+• Special Launch Price: ₹41 Lakh onwards  
+
+LIFESTYLE:
+The project is designed with a focus on nature, luxury, and legacy living. It offers a peaceful escape from city life while still maintaining connectivity and modern living standards.
+
+TAGLINE:
+Nature. Luxury. Legacy. Your Dream Plot Awaits.
+  `,
+
+  location: "Kotdwar, Uttarakhand",
+
+  capacity: "Premium Villa Plots",
+
+  amenities: [
+    "Premium Villa Plots",
+    "Nature Surroundings",
+    "Near Rajaji National Park",
+    "Luxury Living Environment",
+  ],
+},
+  {
+    id: 2,
     title: "Ardh Kumbh Enclave",
     desc: "Premium residential plots & investment opportunity near Har Ki Pauri",
     
@@ -91,7 +209,7 @@ Surrounded by key landmarks like Lemon Tree Hotel, Wisdom Global School, and a f
   },
 
     {
-    id: 2,
+    id: 3,
     title: "Shri Saya Greens Acres",
     desc: "Residential plot project with modern facilities in Mart Vrindavan",
     img: "https://via.placeholder.com/600x400",
@@ -117,7 +235,7 @@ Booking amount starts from ₹51,000 only. Google location and brochure are avai
   },
 
     {
-    id: 3,
+    id: 4,
     title: "Khatu Shyam Farmhouse Plots",
     desc: "Premium farmhouse plots near Khatu Shyam Ji with high investment potential",
     img: "https://via.placeholder.com/600x400",
@@ -140,13 +258,14 @@ The project is well-connected, just 8 km from Khatu Shyam Ji Temple, 5 km from K
     location: "Khatu Shyam, Rajasthan",
     capacity: "Farmhouse / Plots",
   },
-    {
-    id: 4,
+
+  {
+    id: 5,
     title: "chandrodaya",
     desc: "",
-    img: chandrodaya1,
+    // img: chandrodaya,
 
-    images: [chandrodaya1,chandrodaya2], 
+    images: [chandrodaya,chandrodaya1,chandrodaya2], 
 
     fullDesc: "",
     location: "Mathura-Vrindavan",
@@ -154,7 +273,7 @@ The project is well-connected, just 8 km from Khatu Shyam Ji Temple, 5 km from K
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Crystal Valley, Sawantwadi",
     desc: "Nature-inspired premium plots & villas near North Goa",
     img: "https://via.placeholder.com/600x400",
@@ -187,7 +306,7 @@ Location Advantages:
   },
 
     {
-    id: 6,
+    id: 7,
     title: "ParkView Residency, Noida Extension",
     desc: "Premium 1, 2, 3 & 4 BHK homes with park-facing views",
     img: "https://via.placeholder.com/600x400",
@@ -209,7 +328,7 @@ The project combines modern living with a calm and green lifestyle, making it an
   },
 
     {
-    id: 7,
+    id: 8,
     title: "Dishapuram Township, Khatu Shyam Ji",
     desc: "Government-approved residential plots & farmhouses with modern township planning",
     img: "https://via.placeholder.com/600x400",
@@ -233,7 +352,7 @@ Developed by Dishapuram Buildtech Pvt. Ltd., the project ensures transparent doc
   },
 
   {
-    id: 8,
+    id: 9,
     title: "Ganga Rivera, Garhmukteshwar",
     desc: "Premium residential township near NH-9 with modern amenities",
 

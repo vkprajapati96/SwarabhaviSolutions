@@ -16,24 +16,36 @@ export default function ProjectDetails() {
         {project.title}
       </h1>
 
-      {/* Location */}
-      <p className="text-gray-600 mt-2">{project.location}</p>
+      {/* Location + Capacity */}
+      <p className="text-gray-600 mt-2">
+        {project.location} | {project.capacity}
+      </p>
 
-      {/* 🔥 Images (2 per row - BIG) */}
-      {project.images && (
+      {/* Images */}
+      {project.images?.length > 0 && (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
           {project.images.map((img, index) => (
             <img
               key={index}
               src={img}
               alt="project"
-              className="w-full h-64 md:h-80 object-cover rounded-xl"
+              className="w-full h-64 md:h-88 object-cover rounded-xl"
             />
           ))}
         </div>
       )}
 
-      {/* 🔥 About Section */}
+      {/* FULL DESCRIPTION (Sona Residency + others) */}
+      {project.fullDesc && (
+        <div className="mt-10">
+          <h2 className="text-2xl font-bold mb-3">Project Details</h2>
+          <p className="text-gray-700 whitespace-pre-line leading-relaxed">
+            {project.fullDesc}
+          </p>
+        </div>
+      )}
+
+      {/* ABOUT SECTION */}
       {project.about && (
         <div className="grid md:grid-cols-2 gap-8 mt-10 items-center">
           <div>
@@ -47,13 +59,14 @@ export default function ProjectDetails() {
             <img
               src={project.aboutImg}
               className="rounded-xl w-full h-76 object-cover"
+              alt="about"
             />
           )}
         </div>
       )}
 
-      {/* 🔥 Amenities */}
-      {project.amenities && (
+      {/* AMENITIES */}
+      {project.amenities?.length > 0 && (
         <div className="mt-10">
           <h2 className="text-2xl font-bold mb-4">Amenities</h2>
 
@@ -64,12 +77,11 @@ export default function ProjectDetails() {
               </div>
             ))}
           </div>
-          
         </div>
       )}
 
-      {/* 🔥 Nearby Images (scrollable) */}
-      {project.nearImages && (
+      {/* NEARBY IMAGES */}
+      {project.nearImages?.length > 0 && (
         <div className="mt-10">
           <h2 className="text-2xl font-bold mb-4">Nearby Locations</h2>
 
@@ -79,13 +91,14 @@ export default function ProjectDetails() {
                 key={i}
                 src={img}
                 className="h-40 w-60 object-cover rounded-xl flex-shrink-0"
+                alt="nearby"
               />
             ))}
           </div>
         </div>
       )}
 
-      {/* 🔥 Payment Plan */}
+      {/* PAYMENT */}
       {project.payment && (
         <div className="grid md:grid-cols-2 gap-8 mt-10 items-center">
           <div>
@@ -99,15 +112,16 @@ export default function ProjectDetails() {
             <img
               src={project.paymentImg}
               className="rounded-xl w-full h-[500px] object-cover"
+              alt="payment"
             />
           )}
         </div>
       )}
 
-      {/* 🔥 Fallback (old projects ke liye) */}
-      {!project.about && project.fullDesc && (
+      {/* FALLBACK */}
+      {!project.fullDesc && !project.about && (
         <p className="mt-6 text-gray-700 whitespace-pre-line">
-          {project.fullDesc}
+          No details available for this project.
         </p>
       )}
 

@@ -113,14 +113,18 @@ const interiors = [
     img: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900",
   },
   {
-    id: 2,
-    badge: "Kitchen Design",
-    title: "Modern Kitchen That Inspires",
-    desc: "A kitchen is the heart of every home. We design kitchens that are beautiful, practical, and built to last — with premium materials, smart storage solutions, and seamless finishes.",
-    points: ["Modular Cabinet Systems", "Premium Countertops", "Smart Storage Solutions"],
-    img: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900",
-  },
-  {
+  id: 2,
+  badge: "Kitchen Design",
+  title: "Modern Kitchen That Inspires",
+  desc: "A kitchen is the heart of every home. We design kitchens that are beautiful, practical, and built to last — with premium materials, smart storage solutions, and seamless finishes.",
+  points: [
+    "Modular Cabinet Systems",
+    "Premium Countertops",
+    "Smart Storage Solutions"
+  ],
+  img: "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+},
+{
     id: 3,
     badge: "Bedroom",
     title: "Serene Bedroom Retreats",
