@@ -64,6 +64,7 @@ import kingpark from "./image/kingpark/kingpark.jpeg";
 
 
 export const data = [
+  
   {
   id: 0,
   title: "Sona Residency Chronicle Realty",
