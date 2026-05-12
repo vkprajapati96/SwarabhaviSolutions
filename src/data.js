@@ -63,6 +63,38 @@ import chronicle4 from "./image/Chronicle/chronicle4.jpeg";
 import kingpark from "./image/kingpark/kingpark.jpeg";
 
 
+import jal1 from "./image/project/jal1.jpeg"
+import jal2 from "./image/project/jal2.jpeg"
+import jal3 from "./image/project/jal3.jpeg"
+import jal4 from "./image/project/jal4.jpeg"
+import jal5 from "./image/project/jal5.jpeg"
+import jal6 from "./image/project/jal6.jpeg"
+import jal7 from "./image/project/jal7.jpeg"
+import jal8 from "./image/project/jal8.jpeg"
+import jal9 from "./image/project/jal9.jpeg"
+import jal10 from "./image/project/jal10.jpeg"
+import jal11 from "./image/project/jal11.jpeg"
+import jal12 from "./image/project/jal12.jpeg"
+
+import coming1 from "./image/project/coming1.jpeg"
+import coming2 from "./image/project/coming2.jpeg"
+import coming3 from "./image/project/coming3.jpeg"
+import coming4 from "./image/project/coming4.jpeg"
+import completed1 from "./image/project/completed1.jpeg"
+import completed2 from "./image/project/completed2.jpeg"
+import completed3 from "./image/project/completed3.jpeg"
+
+
+import new1 from "./image/project/new1.jpeg"
+import new2 from "./image/project/new2.jpeg"
+import new3 from "./image/project/new3.jpeg"
+import new4 from "./image/project/new4.jpeg"
+import new5 from "./image/project/new5.jpeg"
+import new6 from "./image/project/new6.jpeg"
+
+
+
+
 export const data = [
   
   {
@@ -404,5 +436,138 @@ Flexible and structured payment plan for easy investment.
     `,
   },
 
+  {
+  id: 10,
+  title: "Pick Water Tank Project",
+  desc: "Government water infrastructure project under Har Ghar Jal Scheme",
+
+  img: jal1,
+
+  images: [
+   jal1,
+   jal2,
+   jal3,
+   jal4,
+   jal5,
+   jal6,
+   jal7,
+   jal8,
+   jal9,
+   jal10,
+   jal11,
+   jal12
+  ],
+
+  fullDesc: `
+Pick Water Tank Project is working under the Ministry of Jal Shakti as part of the Har Ghar Jal Mission to provide clean and safe drinking water to every citizen of India.
+
+This initiative supports Prime Minister Narendra Modi’s vision of ensuring tap water connectivity to every household under the “Har Ghar Nal Scheme”.
+
+The project focuses on the construction of modern water tanks and surveillance systems across different regions of India, especially in Uttar Pradesh.
+
+PROJECT HIGHLIGHTS:
+• Government Water Infrastructure Project  
+• Working under Ministry of Jal Shakti  
+• Har Ghar Jal Mission Support  
+• Water Tank Construction  
+• Surveillance System Installation  
+• Clean Drinking Water Initiative  
+• Uttar Pradesh Development Projects  
+
+MISSION:
+By 2024, every household is planned to receive direct drinking water connections so citizens no longer need to travel for clean water access.
+
+The project aims to improve public infrastructure, water accessibility, and rural as well as urban development through advanced water management systems.
+  `,
+
+  location: "Uttar Pradesh, India",
+
+  capacity: "Government Infrastructure Project",
+
+  amenities: [
+    "Water Tank Construction",
+    "Clean Water Supply",
+    "Surveillance Systems",
+    "Government Project",
+    "Har Ghar Jal Mission",
+    "Infrastructure Development",
+  ],
+}
+,
+{
+  id: 11,
+  title: "The Empire Groupe of Company",
+  desc: "Upcoming premium development project near Jewar Airport",
+
+  img: coming1,
+
+  images: [ coming1, coming2, coming3, coming4 ,completed1, completed2, completed3
+    
+  ],
+
+  fullDesc: `
+The Empire Groupe of Company presents an upcoming premium development project located near Jewar Airport, Uttar Pradesh.
+
+This coming project is strategically planned in one of the fastest-growing investment zones of North India, offering strong future growth potential due to its proximity to Noida International Airport (Jewar Airport).
+
+The project is currently in the pre-development stage and offers early site-view opportunities before completion.
+
+PROJECT HIGHLIGHTS:
+• Upcoming Premium Project  
+• Prime Location near Jewar Airport  
+• High Future Appreciation Potential  
+• Fast Developing Infrastructure Zone  
+• Early Investment Opportunity  
+• Planned Modern Development  
+
+LOCATION ADVANTAGE:
+• Near Noida International Airport (Jewar Airport)  
+• Excellent connectivity to Noida & Delhi NCR  
+• Located in rapidly developing Uttar Pradesh investment corridor  
+
+STATUS:
+• Before Completion Site View Available
+  `,
+
+  location: "Jewar Airport, Uttar Pradesh",
+
+  capacity: "Coming Project",
+
+  amenities: [
+    "Prime Airport Connectivity",
+    "Future Investment Zone",
+    "Modern Infrastructure",
+    "Upcoming Development",
+    "Site Visit Available",
+  ],
+}
+,{
+  id: 12,
+  title: "Vedic City",
+  desc: "Coming project near Govardhan, Mathura",
+
+  img: new2,
+
+  images: [new1, new2, new3, new4, new5, new6
+    
+  ],
+
+  fullDesc: `
+COMING PROJECT
+
+OMSHRI REALTECH PVT. LTD.
+PROJECT: VEDIC CITY
+
+LOCATION:
+Siwal, Govardhan, Mathura, Uttar Pradesh
+
+STATUS:
+Before Completed Site View Available
+  `,
+
+  location: "Siwal, Govardhan, Mathura, Uttar Pradesh",
+
+  capacity: "Coming Project",
+}
 
 ];
