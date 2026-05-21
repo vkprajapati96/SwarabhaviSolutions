@@ -108,7 +108,7 @@ export const data = [
   // 👇 NEW TOP CARD
   {
     id: 0,
-    title: "Green Valley Residency",
+    title: "sukoon villas",
     desc: "Luxury residential plots with modern township facilities",
 
     // img: green1,
