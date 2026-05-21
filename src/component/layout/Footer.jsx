@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 import logo from "../../image/logo.png";
 
 const Footer = () => {
@@ -19,8 +20,7 @@ const Footer = () => {
               alt="BuildCraft Logo"
               className="h-[50px] sm:h-[60px] md:h-[65px] lg:h-[60px] w-auto object-contain"
             />
-          </Link>          {/* ===== NAV LINKS (Desktop Only) ===== */}
-          
+          </Link>
 
           <p className="text-gray-600 text-sm leading-relaxed">
             Build your dream home with our expert construction services.
@@ -75,10 +75,44 @@ const Footer = () => {
               </a>
             </p>
 
-          
             <p className="font-semibold text-[#1a3d6b]">
               📞 <a href="tel:9654718222">+91 9654718222</a>
             </p>
+
+            {/* SOCIAL MEDIA */}
+            <div className="flex items-center gap-5 mt-3">
+
+              {/* LinkedIn */}
+              <a
+                href="https://linkedin.com/company/swarabhavi-solutions-pvt-ltd"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl text-blue-700 hover:scale-110 transition-transform"
+              >
+                <FaLinkedin />
+              </a>
+
+              {/* Instagram */}
+              <a
+                href="https://instagram.com/swarabhavisolutionspvtltd"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl text-pink-600 hover:scale-110 transition-transform"
+              >
+                <FaInstagram />
+              </a>
+
+              {/* YouTube */}
+              <a
+                href="https://www.youtube.com/@SwarabhaviSolutionsPvtLtd"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-2xl text-red-600 hover:scale-110 transition-transform"
+              >
+                <FaYoutube />
+              </a>
+
+            </div>
 
           </div>
         </div>
@@ -94,4 +128,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;                            
+export default Footer;

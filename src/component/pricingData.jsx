@@ -7,7 +7,7 @@ const pricingData = [
   {
     id: 'rose',
     name: 'SPP PREMIUM',
-    price: '2150',
+    price: '2500',
     color: 'from-blue-50 to-blue-100',
     borderColor: 'border-blue-200',
     textColor: 'text-blue-600',
@@ -89,7 +89,7 @@ const pricingData = [
   {
     id: 'orchid',
     name: 'SPP SILVER',
-    price: '2450',
+    price: '2800',
     color: 'from-orange-50/20 to-orange-50',
     borderColor: 'border-orange-200',
     textColor: 'text-orange-600',
@@ -176,7 +176,7 @@ const pricingData = [
   {
     id: 'lily',
     name: 'SPP GOLD',
-    price: '3150',
+    price: '3500',
     color: 'from-yellow-50/20 to-yellow-50',
     borderColor: 'border-yellow-200',
     textColor: 'text-yellow-600',

@@ -30,7 +30,7 @@ import ConsultationForm from "../component/ConsultationForm";
 
 
 const partners = [
-  { id: 5, img: partner5 },
+  { id: 5, img: partner4 },
   { id: 6, img: partner6 },
   { id: 7, img: partner7 },
   { id: 8, img: partner8 },
@@ -40,7 +40,7 @@ const clients =[
   {id:1,img:partner1},
   {id:2,img:partner2},
   {id:3,img:partner3},
-  {id:4,img:partner4},
+  {id:4,img:partner5},
   {id:5,img:partner9},
   {id:6,img:partner10}, 
   {id:7,img:partner11},

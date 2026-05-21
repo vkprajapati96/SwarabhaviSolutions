@@ -93,199 +93,185 @@ import new5 from "./image/project/new5.jpeg"
 import new6 from "./image/project/new6.jpeg"
 
 
+import shreeshayam1 from "./image/ShreeShayamTown/shreeshayam1.jpeg"
+import shreeshayam2 from "./image/ShreeShayamTown/shreeshayam2.jpeg"
+import shreeshayam3 from "./image/ShreeShayamTown/shreeshayam3.jpeg"
+import shreeshayam4 from "./image/ShreeShayamTown/shreeshayam4.jpeg"
+import shreeshayam5 from "./image/ShreeShayamTown/shreeshayam5.jpeg"
+import shreeshayam6 from "./image/ShreeShayamTown/shreeshayam6.jpeg"
+import shreeshayam7 from "./image/ShreeShayamTown/shreeshayam7.jpeg"
+import shreeshayam8 from "./image/ShreeShayamTown/shreeshayam8.jpeg"
 
 
 export const data = [
-  
+
+  // 👇 NEW TOP CARD
   {
-  id: 0,
-  title: "Sona Residency Chronicle Realty",
-  desc: "Premium commercial & residential plotted development in Sector-82, Noida",
+    id: 0,
+    title: "Green Valley Residency",
+    desc: "Luxury residential plots with modern township facilities",
 
+    // img: green1,
 
-  images: [chronicle1, chronicle2, chronicle3, chronicle4], // 👈 4 images
-
-  fullDesc: `
-Sona Residency is a premium commercial and residential plotted development located at Sector-82, Noida, opposite Kendriya Vihar and adjoining ISBT.
-
-The project is developed by SAMRAT ACRES LLP under signing authority Mr. Mohit Sharma and promoted by Chronicle Realty. It is spread across approximately 14,000+ sq. yards of prime land.
-
-PROJECT DETAILS:
-• Project Type: Commercial & Residential Plots  
-• Land Use: Freehold, Mixed Land Use (Leased Back from Supreme Court of India)  
-
-PLOT DETAILS:
-• Commercial Plots: Starting from 165 Sq. Yards  
-• Residential Plots: Starting from 131 Sq. Yards  
-
-INFRASTRUCTURE:
-• Internal Roads: 33 ft & 25 ft wide RCC roads  
-• External Roads: 30 meters & 24 meters wide  
-• Sewerage Line  
-• Electricity Connection  
-• Gated Society  
-• CCTV Surveillance  
-• Security Guard Room  
-
-LOCATION ADVANTAGE:
-• Opposite Kendriya Vihar  
-• Adjoining & Opposite ISBT Sector-82 Noida  
-• More than 1 KM long Government Park adjoining the project  
-
-PRICING:
-• Commercial Plots: ₹2,89,990 / Sq. Yard  
-• Residential Plots: ₹1,89,990 / Sq. Yard  
-
-GOVERNMENT DETAILS:
-• Circle Rate: ₹22,000 / Sq. Yard  
-• White Value Considered: Maximum ₹75,000 / Sq. Yard  
-• Registrar Office: Taluka Dadri  
-
-PAYMENT PLAN:
-• Registry within maximum 100 days  
-
-IDEAL FOR:
-Residential Villas, Shops, Showrooms, Training Centers, Nursing Homes, Offices, Hotels, Restaurants, Shop-cum-office, Floor Development & Investment purpose.
-
-This project is highly suitable for both end-use and high-return investment due to its prime Noida location and strong infrastructure development.
-  `,
-
-  location: "Sector-82, Noida",
-
-  capacity: "Commercial & Residential Plots",
-
-  amenities: [
-    "Gated Society",
-    "CCTV Security",
-    "RCC Roads (33 ft & 25 ft)",
-    "Sewerage System",
-    "Electricity Connection",
-    "Guard Room",
-    "1 KM+ Government Park",
-  ],
-},
-
-{
-  id: 1,
-  title: "The King's Park, Kotdwar",
-  desc: "Premium farmhouse & villa plots near Rajaji National Park",
-
-  img: kingpark,
-
-  images: [kingpark],
-
-  fullDesc: `
-The King's Park is a premium farmhouse and villa plots project located in Kotdwar, Uttarakhand, near Rajaji National Park.
-
-The project offers luxury villa plots ranging from 1,000 sq. yards to 2,500 sq. yards, designed for premium lifestyle living surrounded by nature.
-
-KEY HIGHLIGHTS:
-• Premium Villa & Farmhouse Plots  
-• Plot Size: 1,000 – 2,500 Sq. Yards  
-• Location: Kotdwar, Uttarakhand  
-• Near Rajaji National Park  
-• Peaceful nature-surrounded environment  
-
-PRICE:
-• Special Launch Price: ₹41 Lakh onwards  
-
-LIFESTYLE:
-The project is designed with a focus on nature, luxury, and legacy living. It offers a peaceful escape from city life while still maintaining connectivity and modern living standards.
-
-TAGLINE:
-Nature. Luxury. Legacy. Your Dream Plot Awaits.
-  `,
-
-  location: "Kotdwar, Uttarakhand",
-
-  capacity: "Premium Villa Plots",
-
-  amenities: [
-    "Premium Villa Plots",
-    "Nature Surroundings",
-    "Near Rajaji National Park",
-    "Luxury Living Environment",
-  ],
-},
-  {
-    id: 2,
-    title: "Ardh Kumbh Enclave",
-    desc: "Premium residential plots & investment opportunity near Har Ki Pauri",
-    
-    img: "https://via.placeholder.com/600x400",
-
-    // 👇 6 images (gallery ke liye)
-    images: [
-     image1,
-     image2,
-     image3,
-     image4,
-     image5,
-     image6,
-
-    ],
+    // images: [green1, green2, green3, green4],
 
     fullDesc: `
-Ardh Kumbh Enclave is a premium residential project located in Haridwar, offering a perfect blend of connectivity, peaceful living, and high investment potential. 
+Green Valley Residency is a premium residential plotted development designed for modern lifestyle living and long-term investment.
 
-The project has HRDA approval and RERA is currently under process. Spread across 1.47 lakh SQFT (20 Bigha), it offers a well-planned layout with a saleable area of 99,291 SQFT. Construction of Stilt + 4 floors is permitted, ensuring future-ready development.
+PROJECT DETAILS:
+• Premium Residential Plots  
+• Gated Township  
+• Wide Roads & Green Environment  
+• Water & Electricity Available  
+• Park & Kids Play Area  
 
-The project is equipped with essential facilities including Ganga water supply, government electricity, and an eco-friendly environment with its own STP system, making it a green and sustainable society.
+LOCATION ADVANTAGES:
+• Excellent Highway Connectivity  
+• Nearby Schools & Hospitals  
+• Peaceful Environment  
+• Fast Developing Area  
+    `,
 
-Strategically located on the Delhi–Haridwar Highway, it provides excellent connectivity. Har Ki Pauri is just 10 minutes away, the bus stand is 15 minutes away, Dehradun is reachable within 40 minutes, and the airport within 50 minutes.
+    location: "Greater Noida",
 
-Surrounded by key landmarks like Lemon Tree Hotel, Wisdom Global School, and a fully occupied society “Just County”, the project ensures convenience, security, and a high appreciation potential in the near future.
+    capacity: "Residential / Plots",
+
+    amenities: [
+      "Gated Society",
+      "Wide Roads",
+      "24x7 Security",
+      "Water Supply",
+      "Electricity",
+      "Kids Play Area",
+      "Green Park",
+    ],
+  },
+
+  {
+    id: 1,
+    title: "Sona Residency Chronicle Realty",
+    desc: "Premium commercial & residential plotted development in Sector-82, Noida",
+
+    images: [chronicle1, chronicle2, chronicle3, chronicle4],
+
+    fullDesc: `
+Sona Residency is a premium commercial and residential plotted development located at Sector-82, Noida.
+    `,
+
+    location: "Sector-82, Noida",
+
+    capacity: "Commercial & Residential Plots",
+
+    amenities: [
+      "Gated Society",
+      "CCTV Security",
+      "RCC Roads (33 ft & 25 ft)",
+      "Sewerage System",
+      "Electricity Connection",
+      "Guard Room",
+      "1 KM+ Government Park",
+    ],
+  },
+
+  {
+    id: 2,
+    title: "The King's Park, Kotdwar",
+    desc: "Premium farmhouse & villa plots near Rajaji National Park",
+
+    img: kingpark,
+
+    images: [kingpark],
+
+    fullDesc: `
+The King's Park is a premium farmhouse and villa plots project located in Kotdwar, Uttarakhand.
+    `,
+
+    location: "Kotdwar, Uttarakhand",
+
+    capacity: "Premium Villa Plots",
+
+    amenities: [
+      "Premium Villa Plots",
+      "Nature Surroundings",
+      "Near Rajaji National Park",
+      "Luxury Living Environment",
+    ],
+  },
+
+  {
+    id: 3,
+    title: "Ardh Kumbh Enclave",
+    desc: "Premium residential plots & investment opportunity near Har Ki Pauri",
+
+    img: "https://via.placeholder.com/600x400",
+
+    images: [image1, image2, image3, image4, image5, image6],
+
+    fullDesc: `
+Ardh Kumbh Enclave is a premium residential project located in Haridwar.
     `,
 
     location: "Haridwar",
     capacity: "Residential / Plots",
   },
 
-    {
-    id: 3,
+  {
+    id: 4,
     title: "Shri Saya Greens Acres",
     desc: "Residential plot project with modern facilities in Mart Vrindavan",
+
     img: "https://via.placeholder.com/600x400",
 
     images: [mathura1, mathura2, mathura3],
 
     fullDesc: `
-Shri Saya Greens Acres is a well-planned residential plot project located in Mart Vrindavan, offering a great opportunity for both living and investment.
-
-The project provides plot sizes ranging from 111 to 460 sq. yards at an attractive price of ₹22,500 per sq. yard. It is a 100% legal project with registry and mutation ready, ensuring a safe and secure investment.
-
-The society is designed with modern infrastructure including 25 ft and 30 ft wide roads, making accessibility smooth and convenient.
-
-Residents will enjoy premium facilities such as a gated colony, proper drainage system, street lights, park and plantation area, 24/7 security, and availability of electricity and water lines.
-
-The project offers a peaceful environment with all essential amenities, making it an ideal choice for both residential living and future growth.
-
-Booking amount starts from ₹51,000 only. Google location and brochure are available on request.
+Shri Saya Greens Acres is a well-planned residential plot project located in Mart Vrindavan.
     `,
 
     location: "Mathura-Vrindavan",
     capacity: "Residential / Plots",
   },
 
-    {
-    id: 4,
-    title: "Khatu Shyam Farmhouse Plots",
+  {
+    id: 5,
+    title: "Aero city one",
     desc: "Premium farmhouse plots near Khatu Shyam Ji with high investment potential",
+
     img: "https://via.placeholder.com/600x400",
 
-    // 👇 top 4 images (important)
     images: [aerocity1, aerocity2, aerocity3, aerocity4],
 
     fullDesc: `
-This is a premium farmhouse plot project located near Khatu Shyam Ji, offering a peaceful environment along with strong investment potential.
+🏕️ श्री श्याम टाउनशिप 🏕️
 
-Spread across 100 acres, the project offers residential converted plots starting from 100 sq. yards at an attractive price of ₹15,000 per sq. yard. Bank loan facility is also available, making it easier for buyers to invest.
+हारे के सहारे बाबा खाटू श्याम कि नगरी में फार्महाउस प्लॉटस का प्रीमियम प्रोजेक्ट,
+जंहा मौका मिले असीम आनंद के साथ साथ, बेहतर इन्वेस्टमेंट रिटर्न का भी,
 
-The society is fully gated with a single entry point and 24/7 security, ensuring safety and privacy. It includes well-developed infrastructure with 30 ft and 40 ft wide roads, proper boundary walls, street lights, and clearly defined plots.
+• प्रोजेक्ट एरिया - 10 एकड़  
+• Price - 15,000 प्रति वर्ग गज  
+• रिहायशी कन्वर्ट  
+• बैंक लोन सुविधा उपलब्ध  
+• प्रारूप गणना - 100 वर्ग गज से प्रारंभ  
 
-Residents will enjoy modern amenities such as 24/7 water and electricity supply, park areas, children's play zone, senior citizen area, and nearby market facilities.
+• गेटेड प्रवेश  
+• सिंगल गेटेड सोसाइटी  
+• 24x7 सुरक्षा गार्ड  
+• 30 व 40 फीट रोड  
+• सड़क किनारे का स्मारक  
+• स्ट्रीट लेट  
+• सुरक्षित सीमा पत्रिका दीवार  
+• सभी प्लाटों की सीमाज्ञान  
+• 24x 7 पानी  
+• 24x7 बिजली  
+• ग्लोब मार्केट  
+• बच्चों का खेल मैदान  
+• वरिष्ठ नागरिक क्षेत्र  
 
-The project is well-connected, just 8 km from Khatu Shyam Ji Temple, 5 km from Khatu railway station, 50 km from Sikar, and 60 km from Jaipur, making it a great choice for both living and investment.
+• खाटू श्याम जी मंदिर की दूरी - 8 किमी  
+• खाटू रेलवे स्टेशन की मात्रा - 5 कि.मी.  
+• SH113 - 10 मीटर  
+• सीकर - 50 किमी  
+• जयपुर - 60 किमी
     `,
 
     location: "Khatu Shyam, Rajasthan",
@@ -293,12 +279,50 @@ The project is well-connected, just 8 km from Khatu Shyam Ji Temple, 5 km from K
   },
 
   {
-    id: 5,
+    id: 6,
+    title: "Shri Shyam Township",
+    desc: "Premium farmhouse plots in Khatu Shyam Ji with investment benefits",
+
+    img: shreeshayam1,
+
+    images: [
+      shreeshayam1,
+      shreeshayam2,
+      shreeshayam3,
+      shreeshayam4,
+      shreeshayam5,
+      shreeshayam6,
+      shreeshayam7,
+    ],
+
+    fullDesc: `
+Shri Shyam Township is a premium farmhouse plot project located in the holy city of Khatu Shyam Ji.
+    `,
+
+    location: "Khatu Shyam Ji, Rajasthan",
+
+    capacity: "Farmhouse / Plots",
+
+    amenities: [
+      "Single Gated Society",
+      "24x7 Security",
+      "30 & 40 Ft Roads",
+      "Street Lights",
+      "Boundary Wall",
+      "24x7 Water Supply",
+      "24x7 Electricity",
+      "Kids Play Area",
+      "Senior Citizen Zone",
+      "Global Market",
+    ],
+  },
+
+  {
+    id: 7,
     title: "chandrodaya",
     desc: "",
-    // img: chandrodaya,
 
-    images: [chandrodaya,chandrodaya1,chandrodaya2], 
+    images: [chandrodaya, chandrodaya1, chandrodaya2],
 
     fullDesc: "",
     location: "Mathura-Vrindavan",
@@ -306,78 +330,44 @@ The project is well-connected, just 8 km from Khatu Shyam Ji Temple, 5 km from K
   },
 
   {
-    id: 6,
+    id: 8,
     title: "Crystal Valley, Sawantwadi",
     desc: "Nature-inspired premium plots & villas near North Goa",
-    img: "https://via.placeholder.com/600x400",
 
     images: [crystalvalley1, crystalvalley2, crystalvalley3],
 
     fullDesc: `
-Crystal Valley is a thoughtfully planned residential project located in Sawantwadi, Maharashtra, offering a peaceful lifestyle surrounded by nature. The project features premium plots and villas within a secure gated community, designed for comfortable and modern living.
-
-Situated just 30 minutes from Mopa International Airport, it provides excellent connectivity to North Goa while maintaining a calm and pollution-free environment. Nearby attractions include Amboli Hill Station, scenic lakes, and heritage landmarks.
-
-The project is ideal for holiday homes, long-term investment, or retirement living, offering a perfect balance of nature and accessibility.
-
-Key Highlights:
-• Premium plots & villas  
-• Secure gated community  
-• Modern lifestyle amenities  
-• Surrounded by green hills and open spaces  
-
-Location Advantages:
-• 30 mins from Mopa International Airport  
-• 40 mins to Vagator & Morjim Beaches  
-• 25 mins to Amboli Hill Station  
-• 15 mins to Sawantwadi Lake & Palace  
-• 45 mins to Sindhudurg Fort & Beaches  
+Crystal Valley is a thoughtfully planned residential project located in Sawantwadi, Maharashtra.
     `,
 
     location: "Sawantwadi, Maharashtra",
     capacity: "Plots / Villas",
   },
 
-    {
-    id: 7,
+  {
+    id: 9,
     title: "ParkView Residency, Noida Extension",
     desc: "Premium 1, 2, 3 & 4 BHK homes with park-facing views",
-    img: "https://via.placeholder.com/600x400",
 
-    images: [parkview1, parkview2, parkview3, parkview4, parkview5, parkview6], // 👈 6 images
+    images: [parkview1, parkview2, parkview3, parkview4, parkview5, parkview6],
 
     fullDesc: `
-ParkView Residency is a well-planned residential project located in Noida Extension, offering thoughtfully designed 1, 2, 3 & 4 BHK homes for modern urban living.
-
-The project is surrounded by open spaces and is located opposite a 40-acre authority-maintained green park, providing scenic views, fresh air, and a peaceful environment. With a corner and two-side open layout, it ensures better ventilation, natural light, and enhanced living comfort.
-
-It is well-connected to major roads, markets, and daily essentials, all within 5–10 minutes reach, making it a convenient choice for families as well as investors.
-
-The project combines modern living with a calm and green lifestyle, making it an ideal place to live and grow.
+ParkView Residency is a well-planned residential project located in Noida Extension.
     `,
 
     location: "Noida Extension",
     capacity: "1, 2, 3 & 4 BHK Homes",
   },
 
-    {
-    id: 8,
+  {
+    id: 10,
     title: "Dishapuram Township, Khatu Shyam Ji",
     desc: "Government-approved residential plots & farmhouses with modern township planning",
-    img: "https://via.placeholder.com/600x400",
 
-    images: [d1, d2, d3, d4], // 👈 4 images
+    images: [d1, d2, d3, d4],
 
     fullDesc: `
-Dishapuram Buildtech presents a government-approved mixed land use township offering premium residential plots and farmhouses in a peaceful and well-connected location near Khatu Shyam Ji.
-
-The project features well-planned infrastructure with 60 ft, 40 ft, and 30 ft wide roads, along with reliable electricity and water supply. Designed with a focus on greenery and community living, it includes plantation areas, temple space, schools, kids' play zones, resorts, and commercial shops.
-
-Strategically located on the Sikar–Jaipur Highway (SH-08A), near Panchayat Samiti Village Khachriyawas, the project enjoys excellent connectivity to Jaipur Ring Road, Domestic Airport, and the Renwal Industrial Hub (RIICO), which is just a few minutes away.
-
-The project is also close to major devotional destinations like Khatu Shyam Ji, Salasar Balaji, and Jeen Mata, offering a peaceful and spiritually connected lifestyle.
-
-Developed by Dishapuram Buildtech Pvt. Ltd., the project ensures transparent documentation, quality development, and strong long-term investment value, making it an ideal choice for both residential living and future growth.
+Dishapuram Buildtech presents a government-approved mixed land use township.
     `,
 
     location: "Sikar–Jaipur Highway, Rajasthan",
@@ -385,13 +375,11 @@ Developed by Dishapuram Buildtech Pvt. Ltd., the project ensures transparent doc
   },
 
   {
-    id: 9,
+    id: 11,
     title: "Ganga Rivera, Garhmukteshwar",
     desc: "Premium residential township near NH-9 with modern amenities",
 
-    images: [plot1
-, plot2, plot3, plot4, plot5, plot6
-    ], 
+    images: [plot1, plot2, plot3, plot4, plot5, plot6],
 
     aboutImg: brijghat,
     paymentImg: paymentplan,
@@ -401,9 +389,7 @@ Developed by Dishapuram Buildtech Pvt. Ltd., the project ensures transparent doc
     location: "Brij Ghat, Garhmukteshwar",
 
     about: `
-Ganga Rivera is a thoughtfully planned residential township by Phenix Infracon, located at Brij Ghat near NH-9. The project offers a balanced lifestyle with open spaces, planned infrastructure, and peaceful surroundings.
-
-It provides strong connectivity to Delhi, Ghaziabad, and Noida, making it ideal for both residential living and investment. The township focuses on organized layouts, green areas, and comfortable living.
+Ganga Rivera is a thoughtfully planned residential township by Phenix Infracon.
     `,
 
     amenities: [
@@ -411,163 +397,89 @@ It provides strong connectivity to Delhi, Ghaziabad, and Noida, making it ideal 
       "25-30 Ft Wide Roads",
       "Club House",
       "Swimming Pool",
-      "24x7 Security",
-      "CCTV",
-      "Street Lights",
-      "Kids Zone",
-      "Gym",
-      "Sports Area",
-      "Jogging Track",
-      "Meditation Centre",
-      "Fruit Garden",
-      "Flower Park",
-      "Temple",
     ],
 
     payment: `
 Base Price: ₹18,000 / sq yard
-
-• Booking – 10%
-• 30 Days – 40%
-• 60 Days – 40%
-• 90 Days – 10% + charges
-
-Flexible and structured payment plan for easy investment.
     `,
   },
 
   {
-  id: 10,
-  title: "Pick Water Tank Project",
-  desc: "Government water infrastructure project under Har Ghar Jal Scheme",
+    id: 12,
+    title: "Pick Water Tank Project",
+    desc: "Government water infrastructure project under Har Ghar Jal Scheme",
 
-  img: jal1,
+    img: jal1,
 
-  images: [
-   jal1,
-   jal2,
-   jal3,
-   jal4,
-   jal5,
-   jal6,
-   jal7,
-   jal8,
-   jal9,
-   jal10,
-   jal11,
-   jal12
-  ],
+    images: [
+      jal1,
+      jal2,
+      jal3,
+      jal4,
+      jal5,
+      jal6,
+      jal7,
+      jal8,
+      jal9,
+      jal10,
+      jal11,
+      jal12
+    ],
 
-  fullDesc: `
-Pick Water Tank Project is working under the Ministry of Jal Shakti as part of the Har Ghar Jal Mission to provide clean and safe drinking water to every citizen of India.
+    fullDesc: `
+Pick Water Tank Project is working under the Ministry of Jal Shakti.
+    `,
 
-This initiative supports Prime Minister Narendra Modi’s vision of ensuring tap water connectivity to every household under the “Har Ghar Nal Scheme”.
+    location: "Uttar Pradesh, India",
 
-The project focuses on the construction of modern water tanks and surveillance systems across different regions of India, especially in Uttar Pradesh.
+    capacity: "Government Infrastructure Project",
+  },
 
-PROJECT HIGHLIGHTS:
-• Government Water Infrastructure Project  
-• Working under Ministry of Jal Shakti  
-• Har Ghar Jal Mission Support  
-• Water Tank Construction  
-• Surveillance System Installation  
-• Clean Drinking Water Initiative  
-• Uttar Pradesh Development Projects  
+  {
+    id: 13,
+    title: "The Empire Groupe of Company",
+    desc: "Upcoming premium development project near Jewar Airport",
 
-MISSION:
-By 2024, every household is planned to receive direct drinking water connections so citizens no longer need to travel for clean water access.
+    img: coming1,
 
-The project aims to improve public infrastructure, water accessibility, and rural as well as urban development through advanced water management systems.
-  `,
+    images: [
+      coming1,
+      coming2,
+      coming3,
+      coming4,
+      completed1,
+      completed2,
+      completed3
+    ],
 
-  location: "Uttar Pradesh, India",
+    fullDesc: `
+Upcoming premium development project near Jewar Airport.
+    `,
 
-  capacity: "Government Infrastructure Project",
+    location: "Jewar Airport, Uttar Pradesh",
 
-  amenities: [
-    "Water Tank Construction",
-    "Clean Water Supply",
-    "Surveillance Systems",
-    "Government Project",
-    "Har Ghar Jal Mission",
-    "Infrastructure Development",
-  ],
-}
-,
-{
-  id: 11,
-  title: "The Empire Groupe of Company",
-  desc: "Upcoming premium development project near Jewar Airport",
+    capacity: "Coming Project",
+  },
 
-  img: coming1,
+  {
+    id: 14,
+    title: "Vedic City",
+    desc: "Coming project near Govardhan, Mathura",
 
-  images: [ coming1, coming2, coming3, coming4 ,completed1, completed2, completed3
-    
-  ],
+    img: new2,
 
-  fullDesc: `
-The Empire Groupe of Company presents an upcoming premium development project located near Jewar Airport, Uttar Pradesh.
+    images: [new1, new2, new3, new4, new5, new6],
 
-This coming project is strategically planned in one of the fastest-growing investment zones of North India, offering strong future growth potential due to its proximity to Noida International Airport (Jewar Airport).
-
-The project is currently in the pre-development stage and offers early site-view opportunities before completion.
-
-PROJECT HIGHLIGHTS:
-• Upcoming Premium Project  
-• Prime Location near Jewar Airport  
-• High Future Appreciation Potential  
-• Fast Developing Infrastructure Zone  
-• Early Investment Opportunity  
-• Planned Modern Development  
-
-LOCATION ADVANTAGE:
-• Near Noida International Airport (Jewar Airport)  
-• Excellent connectivity to Noida & Delhi NCR  
-• Located in rapidly developing Uttar Pradesh investment corridor  
-
-STATUS:
-• Before Completion Site View Available
-  `,
-
-  location: "Jewar Airport, Uttar Pradesh",
-
-  capacity: "Coming Project",
-
-  amenities: [
-    "Prime Airport Connectivity",
-    "Future Investment Zone",
-    "Modern Infrastructure",
-    "Upcoming Development",
-    "Site Visit Available",
-  ],
-}
-,{
-  id: 12,
-  title: "Vedic City",
-  desc: "Coming project near Govardhan, Mathura",
-
-  img: new2,
-
-  images: [new1, new2, new3, new4, new5, new6
-    
-  ],
-
-  fullDesc: `
+    fullDesc: `
 COMING PROJECT
 
 OMSHRI REALTECH PVT. LTD.
 PROJECT: VEDIC CITY
+    `,
 
-LOCATION:
-Siwal, Govardhan, Mathura, Uttar Pradesh
+    location: "Siwal, Govardhan, Mathura, Uttar Pradesh",
 
-STATUS:
-Before Completed Site View Available
-  `,
-
-  location: "Siwal, Govardhan, Mathura, Uttar Pradesh",
-
-  capacity: "Coming Project",
-}
+    capacity: "Coming Project",
+  }
 
 ];
