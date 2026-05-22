@@ -102,51 +102,78 @@ import shreeshayam6 from "./image/ShreeShayamTown/shreeshayam6.jpeg"
 import shreeshayam7 from "./image/ShreeShayamTown/shreeshayam7.jpeg"
 import shreeshayam8 from "./image/ShreeShayamTown/shreeshayam8.jpeg"
 
+import sukoon1 from "./image/sukoon/sukoon1.jpeg"
+import sukoon2 from "./image/sukoon/sukoon2.jpeg"
+import sukoon3 from "./image/sukoon/sukoon3.jpeg"
+import sukoon4 from "./image/sukoon/sukoon4.jpeg"
+import sukoon5 from "./image/sukoon/sukoon5.jpeg"
+
 
 export const data = [
 
   // 👇 NEW TOP CARD
-  {
-    id: 0,
-    title: "sukoon villas",
-    desc: "Luxury residential plots with modern township facilities",
+   {
+  id: 0,
+  title: "Sukoon - The Luxurious Villas",
+  desc: "Luxury villa project by Bhoodhan Developer with premium facilities",
 
-    // img: green1,
+  img: sukoon5,
 
-    // images: [green1, green2, green3, green4],
+  images: [sukoon1, sukoon2, sukoon3, sukoon4, sukoon5],
 
-    fullDesc: `
-Green Valley Residency is a premium residential plotted development designed for modern lifestyle living and long-term investment.
+  fullDesc: `
+🏡 Project Name: Sukoon - The Luxurious Villas  
+🏗️ Developer Name: Bhoodhan Developer  
+🤝 Partner/Associate Logo: Arambh (आरम्भ)
 
 PROJECT DETAILS:
-• Premium Residential Plots  
-• Gated Township  
-• Wide Roads & Green Environment  
-• Water & Electricity Available  
-• Park & Kids Play Area  
+• Luxury Villas Development  
+• Premium Residential Project  
+• Modern Lifestyle Design  
+• Peaceful Living Environment  
 
-LOCATION ADVANTAGES:
-• Excellent Highway Connectivity  
-• Nearby Schools & Hospitals  
-• Peaceful Environment  
-• Fast Developing Area  
-    `,
+VILLA CONFIGURATION & PRICING:
 
-    location: "Greater Noida",
+• 1887 Sq. Ft. — ₹ 1,13,22,000/-
+• 1989.5 Sq. Ft. — ₹ 1,19,37,000/-
+• 2035 Sq. Ft. — ₹ 1,22,10,000/-
+• 2727 Sq. Ft. — ₹ 1,33,62,000/-
 
-    capacity: "Residential / Plots",
+OTHER CHARGES:
+• IDC / EDC — ₹ 50/- per Sq. Ft.
+• PLC (Road + Corner) — ₹ 100/- per Sq. Ft.
+• PLC (Road + Corner + Side) — ₹ 125/- per Sq. Ft.
+• Club Membership — ₹ 75,000/-
+• Meter Installation — ₹ 35,000/-
+• Power Backup — ₹ 30,000/-
 
-    amenities: [
-      "Gated Society",
-      "Wide Roads",
-      "24x7 Security",
-      "Water Supply",
-      "Electricity",
-      "Kids Play Area",
-      "Green Park",
-    ],
-  },
+PAYMENT PLAN:
+• 10% at booking  
+• 15% within 30 days  
+• 25% on Ground Floor Casting  
+• 25% on Second Floor Casting  
+• 25% on Super Structure Completion  
 
+NOTE:
+• Total = 100% Payment Structure  
+• All cheques/DD in favour of AARAMBH INFRASTRUCTURE / BHOODHAN DEVELOPER  
+• Payable at Noida  
+• Govt charges (Stamp Duty etc.) paid by buyer  
+• Cancellation: 10% deduction on total sale price  
+  `,
+
+  location: "India",
+
+  capacity: "Luxury Villas",
+
+  amenities: [
+    "Gated Community",
+    "Luxury Villas",
+    "Modern Design",
+    "Security",
+    "Premium Lifestyle",
+  ],
+},
   {
     id: 1,
     title: "Sona Residency Chronicle Realty",
