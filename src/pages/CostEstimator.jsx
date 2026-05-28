@@ -7,7 +7,7 @@ const plans = [
   {
     id: 'rose',
     name: 'SSP PREMIUM',
-    price: 1900,
+    price: 2250,
     color: 'from-blue-100 to-blue-50',
     borderColor: 'border-blue-300',
     accentColor: 'bg-blue-500',
@@ -23,7 +23,7 @@ const plans = [
   {
     id: 'orchid',
     name: 'SPP SILVER',
-    price: 2200,
+    price: 2550,
     color: 'from-orange-100 to-orange-50',
     borderColor: 'border-orange-300',
     accentColor: 'bg-orange-500',
@@ -39,7 +39,7 @@ const plans = [
   {
     id: 'lily',
     name: 'SPP GOLD',
-    price: 2800,
+    price: 3150,
     color: 'from-yellow-100 to-yellow-50',
     borderColor: 'border-yellow-300',
     accentColor: 'bg-yellow-500',
@@ -55,7 +55,7 @@ const plans = [
   {
     id: 'smarthome',
     name: 'Smart Home',
-    price: 3200,
+    price: 3550,
     color: 'from-purple-100 to-purple-50',
     borderColor: 'border-purple-300',
     accentColor: 'bg-purple-500',
